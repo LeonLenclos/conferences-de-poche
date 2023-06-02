@@ -1,0 +1,96 @@
+---
+titre: Les conférences de poche
+tagline: Tout savoir sur rien du tout.
+sommaire:
+  - id: page-de-garde
+    type: section
+
+  - id: mondes-possibles
+    type: conference
+
+  - id: sens-de-la-vie
+    type: conference
+  
+  - id: reine-rouge
+    type: conference
+
+conferences:
+
+  - titre: Anniversaires
+    id: anniversaires
+    tagline: De quoi parle-t-on quand on parle d'anniversaire.
+    ville: Bessines sur Gartempe
+    date: mai 2023
+    contexte: sur invitation de Graines de Rue pour les 25 ans du festival
+
+  - titre:  Le syndrome de la reine rouge
+    id: reine-rouge
+    tagline: Les ordinateurs peuvent-ils nous aider à compter jusqu’à l’infini ?
+    ville: Toulouse
+    date: octobre 2022
+    contexte: sur invitation de l’Espace Job 
+
+  - titre: Les mondes possibles
+    id: mondes-possibles
+    tagline: Une apologie du mensonge et de la fiction.
+    ville: Toulouse
+    date: septembre 2022
+    contexte: sur invitation du Quai des Savoirs
+
+  - titre: La nuit est un lieu que l’on visite toutes les nuits
+    id: nuit
+    tagline: Qu’est-ce que la nuit nous permet de voir quand on la regarde ?
+    ville: Cuzals
+    date: août 2021
+    contexte: sur invitation de la Compagnie des Clous
+
+  - titre: Six techniques pour améliorer votre mémoire
+    id: memoire
+    tagline: Comment améliorer efficacement sa mémoire avec des techniques simples et accessibles à tous ?
+    ville: Montreuil
+    date: novembre 2019
+    contexte: sur invitation du Transmuttateur au théâtre Berthelot
+
+  - titre:  La question du sens de la vie
+    id: sens-de-la-vie
+    tagline: De quoi la question du sens de la vie est la question et quel est son sens ?
+    ville: Arles
+    date: juin 2019
+    contexte: sur invitation de l’association 2 SI2 LA pour l’exposition C’est par où la vie ? 
+
+  - titre: Sur les documents
+    id: documents
+    tagline: Est-ce que la photocopie tue vraiment le livre ?
+    ville: Montreuil
+    date: mars 2019
+    contexte:  sur invitation du collectif S.P.O.R.T.S pour l’exposition DO-KU-MAN
+
+  - titre: Les pareurs
+    id: pareurs
+    tagline: Pourquoi un toit est toujours beau et pourquoi un toit est toujours penché ?
+    ville: Pantin
+    date: mars 2017
+    contexte: sur invitation du collectif Process’art pour l’exposition SHEDS
+
+  - titre: À propos des bouteilles de lait
+    id: bouteilles-de-lait
+    tagline: Quel est le point commun entre saisir une bouteille de lait et démolir un immeuble ?
+    ville: Paris
+    date: décembre 2015
+    contexte: sur invitation du collectif Dans la norme pour l’exposition Mouvement vers l’inconnu
+
+  - titre: Ce qui est dans ma poche ce qui est en dehors et le reste
+    id: poches
+    tagline: Pourquoi nos poches semblent si distantes malgré leur proximité avec notre corps ?
+    ville: Paris
+    date: mai 2015
+    contexte: sur invitation et sous le regard de Samah Slim pour l’exposition Brelan
+
+  - titre: Une collection de collections vides n’est pas une collection vide
+    id: collections
+    tagline: Jusqu’où peut m’amener l’idée simple qu’une collection reste une collection même si elle ne contient aucun élément ?
+    ville: Cergy
+    date: mars 2015
+    contexte: ~
+
+...

@@ -1,0 +1,45 @@
+:root{
+  --bleed:1;
+}
+
+@media print {
+
+@page {
+  font-family: "Liberation Serif", monospace;
+
+  size: 210mm 297mm;
+  margin-top: 20mm;
+  margin-bottom: 10mm;
+  bleed:3mm;
+
+  font-size: 13pt;
+}
+}
+
+.error {
+  background-color: lightpink;
+}
+
+img {
+  background-color: lightskyblue;
+}
+img:after{
+  content:' (IMAGE)';
+}
+
+p {
+  margin:0;
+  margin-bottom:.5em;
+    text-align:justify;
+ }
+ 
+ hr {
+   border:none;
+   height: 1em;
+ 
+ }
+ hr:after{
+   display: block;
+   text-align: center;
+   content:'∗∗∗';
+ }
