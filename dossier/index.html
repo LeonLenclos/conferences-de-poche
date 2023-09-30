@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="js/paged.polyfill.js"></script>
+    <script src="js/mustache.js"></script>
+    <script src="js/paged-mustache.js"></script>
+    <script src="js/live.js"></script>
+    <script src="js/data.js"></script>
+    <link rel="stylesheet" href="css/interface.css" type="text/css">
+    <link rel="stylesheet" href="css/fonts.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script id="img" type="x-tmpl-mustache">
+      <div class="page conference">
+
+        <h2>{{{titre}}}</h2>
+        <p><q>{{soustitre}}</q></p>
+        <p>{{credits}}</p>
+        <img src="img/{{id}}.png"/>        
+      </div>
+    </script>
+
+    <script id="conference" type="x-tmpl-mustache">
+      <div class="page conference">
+
+        <h2>{{{titre}}}</h2>
+        <p><q>{{soustitre}}</q></p>
+        <p>{{credits}}</p>
+        <img src="img/{{id}}.png"/>        
+      </div>
+    </script>
+  
+  </head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <body>
+    <div class="page couv">
+      <p style="text-align:center">La cie Nokill présente</p>
+      <img src="img/titre.png"/>
+      <!-- <q>Tout savoir sur rien du tout</q> -->
+      <p>Un spectacle de Léon Lenclos</p>
+
+    </div>
+
+    <p><q>Depuis le milieu des années 10, je donne des courtes conférences où je confonds fiction et réalité de sorte que la différence entre les deux n’intéresse plus personne. Une fois, à propos d’une histoire que je racontais quelqu’un m’a demandé si c’était vrai, je n’ai pas pu répondre car je ne savais plus. Une fois, un collégien qui avait vu le spectacle lors d’une sortie scolaire a écrit à propos de ces conférences « long et très sérieux ». Une fois, j’ai été obligé d’avouer à une doctorante qu’en réalité, je n’avais pas lu Spinoza. Une fois, j’ai dû arrêter la conférence, car un téléphone sonnait et que personne ne le coupait, c’était le mien. Parfois, je ne dis rien pendant plusieurs minutes et tout le monde m’écoute. Souvent je fais des dessins sur un paper-board pendant que je parle. J’ai aussi un verre d’eau que j’utilise pour boire.</q></p>
+    <img class="bottom" src="img/papier.png"/>
+
+    <script type="x-tmpl-mustache">
+      {{# conferences}}
+        {{> conference}}
+      {{/conferences}}
+    </script>
+    <img src="img/sceno.png" class="page">
+
+    <div class="page">
+
+
+    </div>
+
+    
+    <div class="page">
+      <h3>Créations</h3>
+      <p>Les conférences ont presque toutes été écrites sur commande : sur invitation d'un lieu, d'un collectif, à l'occasion d'une exposition, d'un festival. La structure décide du thème et accueille l'artiste pour une résidence d'écriture d'une semaine. Après être jouée une première fois en sortie de résidence, la nouvelle conférence intègre le répertoire des <em>Conférences de poche</em>. </p>
+      <img src="img/residence.png">
+    </div>
+
+    <h3>Compagnie</h3>
+    <p>La cie Nokill fait des spectacles depuis 2016 : 
+      <ul>
+        <li><em>Les Conférences de poche</em> (2016)</li>
+        <li><em>L'Envol</em> (2017)</li>
+        <li><em>Turing Test</em> (2019)</li>
+        <li><em>Elektra I Love You So Much</em> (2022)</li>
+        <li><em>Camera obscura</em> (2024)</li>
+      </ul>
+      <div class="cartes">
+        <p><em>Diffusion</em><br/>Amparo Gallur<br/>07 68 52 29 53<br/>cie@nokill.fr</p>
+        <p><em>Artiste</em><br/>Léon Lenclos<br/>06 27 65 68 33<br/>contact@leonlenclos.net</p>
+      </div>
+      <img style="width: 85%;" src="img/verre.png">
+      <p style="text-align: center;">leonlenclos.net ~ cienokill.fr</p>
+
+  </body>
+</html>
+
+

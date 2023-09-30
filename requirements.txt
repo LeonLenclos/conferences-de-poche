@@ -1,0 +1,5 @@
+bottle==0.12.25
+chevron==0.14.0
+Markdown==3.4.3
+pdfkit==1.0.0
+PyYAML==6.0

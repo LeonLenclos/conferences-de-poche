@@ -1,0 +1,15 @@
+:root{
+  --bleed:1;
+}
+
+@media print {
+  @page {
+    font-family: "Liberation Serif", monospace;
+    size: 210mm 297mm;
+    margin-top: 20mm;
+    margin-bottom: 10mm;
+    bleed:3mm;
+    font-size: 13pt;
+  }
+}
+
