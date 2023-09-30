@@ -31,7 +31,8 @@ sh make-pdf.sh
 ```
 
 Les pdfs sont créés dans `pdf/`
-## Make
+
+## Make
 
 ```
 python make.py

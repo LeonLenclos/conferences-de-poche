@@ -30,7 +30,11 @@ def page(page_id):
 
 @route('/')
 def index():
-    return page('index');
+    return server_static('index.html');
+
+@route('/local')
+def index():
+    return page('local');
 
 @route('/<filepath:path>')
 def server_static(filepath):
