@@ -20,9 +20,6 @@
   background-color: lightpink;
 }
 
-img {
-  background-color: lightskyblue;
-}
 img:after{
   content:' (IMAGE)';
 }

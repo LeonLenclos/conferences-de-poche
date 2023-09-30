@@ -3,14 +3,19 @@ from bottle import route, run
 
 import make
 
-@route('/hello')
-def hello():
-    return "Hello World!"
+@route('/coucou')
+def coucou():
+    return "('<_ '"
 
 @route('/livre')
 def livre():
     data = make.get_data()
-    return make.make_book(data)
+    return make.make_book(data, 'livre')
+
+@route('/dossier')
+def livre():
+    data = make.get_data()
+    return make.make_book(data, 'dossier')
 
 @route('/content/<content_id>')
 def content(content_id):

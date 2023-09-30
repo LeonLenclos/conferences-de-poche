@@ -1,27 +1,98 @@
 ---
 titre: Les conférences de poche
 tagline: Tout savoir sur rien du tout.
-sommaire:
-  - id: page-de-garde
-    type: section
+version:
+  livre : 0
+  dossier : 2
+sommaires:
 
-  - id: mondes-possibles
-    type: conference
+  livre:
 
-  - id: sens-de-la-vie
-    type: conference
-  
-  - id: reine-rouge
-    type: conference
+    - id: page-de-garde
+      type: section
+
+    - id: mondes-possibles
+      type: conference
+
+    - id: sens-de-la-vie
+      type: conference
+    
+    - id: reine-rouge
+      type: conference
+
+  dossier:
+
+    - id: dossier-couv
+      type: couv
+
+    - id: presentation-je
+      type: page-intro
+      
+    - id: etonnement
+      type: conference-dossier
+    
+    - id: anniversaires
+      type: conference-dossier
+ 
+    - id: reine-rouge
+      type: conference-dossier
+
+    - id: mondes-possibles
+      type: conference-dossier
+
+    - id: nuit
+      type: conference-dossier
+
+    - id: memoire
+      type: conference-dossier
+
+    - id: sens-de-la-vie
+      type: conference-dossier
+
+    - id: documents
+      type: conference-dossier
+
+    - id: pareurs
+      type: conference-dossier
+
+    - id: bouteilles-de-lait
+      type: conference-dossier
+
+    - id: poches
+      type: conference-dossier
+
+    - id: collections
+      type: conference-dossier
+
+    - id: dossier-sceno
+      type: page
+
+    - id: dossier-format
+      type: page
+
+    - id: dossier-creations
+      type: page
+
+    - id: dossier-compagnie
+      type: page
 
 conferences:
 
-  - titre: Anniversaires
+  - titre: De ce qui provoque l'étonnement à ce que l'étonnement provoque
+    id: etonnement
+    tagline: En quoi les escalators bouleversent notre vision du monde ?
+    ville: Mende
+    date: septembre 2023
+    contexte: sur invitation des Scènes Croisées de Lozère
+    statut: jouée
+
+  - titre: Les anniversaires
     id: anniversaires
-    tagline: De quoi parle-t-on quand on parle d'anniversaire.
+    tagline: De quoi parle-t-on quand on parle d'anniversaire ?
     ville: Bessines sur Gartempe
     date: mai 2023
     contexte: sur invitation de Graines de Rue pour les 25 ans du festival
+    statut: jouée
 
   - titre:  Le syndrome de la reine rouge
     id: reine-rouge
@@ -29,6 +100,7 @@ conferences:
     ville: Toulouse
     date: octobre 2022
     contexte: sur invitation de l’Espace Job 
+    statut: jouée
 
   - titre: Les mondes possibles
     id: mondes-possibles
@@ -36,6 +108,7 @@ conferences:
     ville: Toulouse
     date: septembre 2022
     contexte: sur invitation du Quai des Savoirs
+    statut: jouée
 
   - titre: La nuit est un lieu que l’on visite toutes les nuits
     id: nuit
@@ -43,6 +116,7 @@ conferences:
     ville: Cuzals
     date: août 2021
     contexte: sur invitation de la Compagnie des Clous
+    statut: jouée
 
   - titre: Six techniques pour améliorer votre mémoire
     id: memoire
@@ -50,6 +124,7 @@ conferences:
     ville: Montreuil
     date: novembre 2019
     contexte: sur invitation du Transmuttateur au théâtre Berthelot
+    statut: jouée
 
   - titre:  La question du sens de la vie
     id: sens-de-la-vie
@@ -57,6 +132,7 @@ conferences:
     ville: Arles
     date: juin 2019
     contexte: sur invitation de l’association 2 SI2 LA pour l’exposition C’est par où la vie ? 
+    statut: jouée
 
   - titre: Sur les documents
     id: documents
@@ -64,6 +140,7 @@ conferences:
     ville: Montreuil
     date: mars 2019
     contexte:  sur invitation du collectif S.P.O.R.T.S pour l’exposition DO-KU-MAN
+    statut: jouée
 
   - titre: Les pareurs
     id: pareurs
@@ -71,6 +148,7 @@ conferences:
     ville: Pantin
     date: mars 2017
     contexte: sur invitation du collectif Process’art pour l’exposition SHEDS
+    statut: jouée
 
   - titre: À propos des bouteilles de lait
     id: bouteilles-de-lait
@@ -78,6 +156,7 @@ conferences:
     ville: Paris
     date: décembre 2015
     contexte: sur invitation du collectif Dans la norme pour l’exposition Mouvement vers l’inconnu
+    statut: arrêtée
 
   - titre: Ce qui est dans ma poche ce qui est en dehors et le reste
     id: poches
@@ -85,6 +164,7 @@ conferences:
     ville: Paris
     date: mai 2015
     contexte: sur invitation et sous le regard de Samah Slim pour l’exposition Brelan
+    statut: arrêtée
 
   - titre: Une collection de collections vides n’est pas une collection vide
     id: collections
@@ -92,5 +172,6 @@ conferences:
     ville: Cergy
     date: mars 2015
     contexte: ~
+    statut: arrêtée
 
 ...
