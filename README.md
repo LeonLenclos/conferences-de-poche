@@ -1,8 +1,26 @@
-# Comment faire un livre
+# Le dépot des conférences de poche
+
+Les Conférences de poche c'est un spectacle de Léon Lenclos de la Cie NOKILL.
+
+L'ambition de ce dépôt est de rassembler :
+- Les textes et les informations de chaque conférences.
+- Les textes et les informations générales sur le spectacle.
+- Les outils permettant de créer tous les documents (pour le web ou pour le papier) liés aux conférences.
 
 
-## Env
+## Les documents
 
+- Le livre
+- Le dossier
+- La fiche technique
+- L'affiche
+- La page des conférences sur le site de la compagnie
+
+## Comment ça marche
+
+Ce qui suit est un pense-bête qui m'est déstiné à moi-même.
+
+## Environnement
 
 Pour activer l'environnement sur ma machine (vegapunk) j'utilise :
 

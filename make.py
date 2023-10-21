@@ -1,5 +1,6 @@
 import os
 import datetime
+import subprocess
 
 import markdown
 import yaml
@@ -7,71 +8,95 @@ import chevron
 import pdfkit
 
 def get_data():
+    '''Return the content of data.yml (also add the current date)'''
     with open('data.yml', 'r') as file:
         data = yaml.safe_load(file)
         data['date'] = datetime.datetime.today().strftime('%d/%m/%Y')
-        data['contenu'] = {}
-        for file in os.listdir('contenu'):
-            id = os.path.splitext(file)[0]
-            with open(f"contenu/{file}", 'r') as md_file:
-                text = md_file.read()
-                html = markdown.markdown(text)
-                data['contenu'][id] = html
         return data
-        
-def get_content(data, item_id):
+
+def get_document(doc):
+    '''Return data of given document'''
+    data = get_data()
     try:
-        return data['contenu'][item_id]
-    except KeyError:
+        return next(d for d in data['documents'] if d['document'] == doc)
+    except StopIteration:
+        return {}
+
+def get_conference(conf):
+    '''Return data of ginven conf'''
+    data = get_data()
+    try:
+        return next(c for c in data['conferences'] if c['id'] == conf)
+    except StopIteration:
+        return {}
+
+def get_content(item_id):
+    '''Get the markdown file corresponding to passed id, convert it to html and return it'''
+    try:
+        with open(f"contenu/{item_id}.md", 'r') as md_file:
+            text = md_file.read()
+            html = markdown.markdown(text)
+            return html
+    except OSError:
         return make_error(f'Contenu de `{item_id}` introuvable dans mes contenus.')
 
 def fill_template(template, data):
+    '''Get the template corresponding to passed name, fill it with passed data and return it'''
     with open(f'template/{template}.mustache', 'r') as template:
         return chevron.render(template, data)
 
 def make_error(text):
+    '''Generate html code for an error with the passed text'''
     html = markdown.markdown(text)
     return fill_template('error', {'html':html})
 
-def make_section(data, section_id): #unused
-    html = get_content(data, section_id)
-    section_data = {'id': section_id, 'html':html}
-    return fill_template('section', section_data)
 
-def make_conference(data, conference_id): #unused
-    try:
-        conference_data = next(c for c in data['conferences'] if c['id'] == conference_id)
-    except StopIteration:
-        return make_error(f'Conférence `{conference_id}` introuvable dans mes données.')
-    
-    conference_data['html'] = get_content(data, conference_id)
-    return fill_template('conference', conference_data)
-
-def make_item(data, item):
-    html = get_content(data, item['id'])
-    try:
-        conference_data = next(c for c in data['conferences'] if c['id'] == item['id'])
-    except StopIteration:
-        conference_data = {}
-    item_data = {'id': item['id'], 'html':html, 'conf':conference_data}
-    return fill_template(item['type'], item_data)
+def make_chapter(chapter):
+    '''Return the html corresponding to the given chapter'''
+    fill_data = get_data()
+    fill_data['id'] = chapter['id']
+    fill_data['html'] = get_content(chapter['id'])
+    fill_data['conf'] = get_conference(chapter['id'])
+    if not chapter['template'] :
+      return fill_data['html']
+    return fill_template(chapter['template'], fill_data)
 
 
-def make_book(data, book):
-    items = (make_item(data, item) for item in data['sommaires'][book])
-    html = '\n'.join(items)
-    return fill_template(book, data | {'html':html})
+def make_document(document):
+    '''Return the html corresponding to the given document'''
+    data = get_data()
+    chapters = (make_chapter(chapter) for chapter in document['sommaire'])
+    html = '\n'.join(chapters)
+    if not document['template'] :
+      return html
+    return fill_template(document['template'], data | {'html':html})
 
-def write_book(data, book):
-    with open(f"{book}.html", 'w') as file:
-        file.write(make_book(data, book))
-    make_pdf(book)
 
-def make_pdf(book):
-    options = {"enable-local-file-access": True}
-    pdfkit.from_file(f"{book}.html", f"pdf/{book}.pdf", verbose=True, options=options)
+def export_html(document):
+    doc = make_document(document)
+    html_file = document['dist']['html']
+    with open(html_file, 'w') as file:
+        file.write(doc)
+    return html_file
+
+def export_pdf(document):
+    html_file = export_html(document)
+    pdf_file = document['dist']['pdf']
+    subprocess.call(['sh', './make-pdf.sh', html_file, pdf_file])
+    return pdf_file
+
+def dist_document(document):
+    '''Generate and save the document'''
+    export_html(document)
+    if 'pdf' in document['dist'] :
+        export_pdf(document)
+    return document['document']
+
+def dist_all():
+    data = get_data()
+    for document in data['documents']:
+      dist_document(document)
+    return 'oui!'
 
 if __name__ == '__main__':
-    data = get_data()
-    write_book(data, 'livre')
-    write_book(data, 'dossier')
+    dist_all()

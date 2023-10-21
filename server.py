@@ -3,38 +3,35 @@ from bottle import route, run
 
 import make
 
-@route('/coucou')
-def coucou():
-    return "('<_ '"
-
-@route('/livre')
-def livre():
-    data = make.get_data()
-    return make.make_book(data, 'livre')
-
-@route('/dossier')
-def livre():
-    data = make.get_data()
-    return make.make_book(data, 'dossier')
-
 @route('/content/<content_id>')
 def content(content_id):
-    data = make.get_data()
-    return make.get_content(data, content_id)
+    return make.get_content(content_id)
 
 
-@route('/page/<page_id>')
-def page(page_id):
-    data = make.get_data()
-    return make.fill_template(page_id, data)
+
+@route('/live/<doc>')
+def live(doc):
+    return make.make_document(make.get_document(doc));
+
+@route('/dist', method=['GET', 'POST'])
+def dist_all():
+    return make.dist_all();
+
+@route('/dist/<doc>', method=['GET', 'POST'])
+def dist(doc):
+    return make.dist_document(make.get_document(doc));
+
+@route('/export_pdf/<doc>', method=['GET', 'POST'])
+def export_pdf(doc):
+    return make.export_pdf(make.get_document(doc));
+
+@route('/export_html/<doc>', method=['GET', 'POST'])
+def export_html(doc):
+    return make.export_html(make.get_document(doc));
 
 @route('/')
 def index():
     return server_static('index.html');
-
-@route('/local')
-def index():
-    return page('local');
 
 @route('/<filepath:path>')
 def server_static(filepath):

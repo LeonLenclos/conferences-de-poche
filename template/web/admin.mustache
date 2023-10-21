@@ -1,0 +1,30 @@
+<h3>DOCUMENTS:</h3>
+<table>
+<tr>
+  <th>document</th>
+  <th>version</th>
+  <th>HTML</th>
+  <th>live</th>
+  <th>export HTML</th>
+  <th>PDF</th>
+
+  <th>export PDF</th>
+</tr>
+{{#documents}}
+<tr>
+  <th>{{document}}</th>
+  <td><form action="/dist/{{document}}" method="POST" target="response"><button>dist</button></form></td>
+  <td>V{{version}}</td>
+  <td><a href="{{dist.html}}">{{dist.html}}</a></td>
+  <td><a href="/live/{{document}}">live html</a></td>
+  <td><form action="/export_html/{{document}}" method="POST" target="response"><button>export html</button></form></td>
+  <td>{{#dist.pdf}}<a class="pdf" href="{{dist.pdf}}">{{dist.pdf}}</a>{{/dist.pdf}}</td>
+  <td>{{#dist.pdf}}<form action="/export_pdf/{{document}}" method="POST" target="response"><button>export pdf</button></form>{{/dist.pdf}}</td>
+</tr>
+{{/documents}}
+</table>
+<form action="/dist" method="POST" target="response"><button>dist all</button></form>
+<button onclick="document.querySelectorAll('.pdf').forEach(e=>{e.href=e.innerHTML=e.innerHTML.slice(0,-4)+'-print.pdf'})">+ print</button>
+<button onclick="document.querySelectorAll('.pdf').forEach(e=>{e.href=e.innerHTML=e.innerHTML.slice(0,-10)+'.pdf'})">- print</button>
+<h3>REPONSE:</h3>
+<iframe name="response"></iframe>

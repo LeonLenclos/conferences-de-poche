@@ -1,82 +1,17 @@
 ---
 titre: Les conférences de poche
 tagline: Tout savoir sur rien du tout.
-version:
-  livre : 0
-  dossier : 2
-sommaires:
-
-  livre:
-
-    - id: page-de-garde
-      type: section
-
-    - id: mondes-possibles
-      type: conference
-
-    - id: sens-de-la-vie
-      type: conference
-    
-    - id: reine-rouge
-      type: conference
-
-  dossier:
-
-    - id: dossier-couv
-      type: couv
-
-    - id: presentation-je
-      type: page-intro
-      
-    - id: etonnement
-      type: conference-dossier
-    
-    - id: anniversaires
-      type: conference-dossier
- 
-    - id: reine-rouge
-      type: conference-dossier
-
-    - id: mondes-possibles
-      type: conference-dossier
-
-    - id: nuit
-      type: conference-dossier
-
-    - id: memoire
-      type: conference-dossier
-
-    - id: sens-de-la-vie
-      type: conference-dossier
-
-    - id: documents
-      type: conference-dossier
-
-    - id: pareurs
-      type: conference-dossier
-
-    - id: bouteilles-de-lait
-      type: conference-dossier
-
-    - id: poches
-      type: conference-dossier
-
-    - id: collections
-      type: conference-dossier
-
-    - id: dossier-sceno
-      type: page
-
-    - id: dossier-format
-      type: page
-
-    - id: dossier-creations
-      type: page
-
-    - id: dossier-compagnie
-      type: page
 
 conferences:
+
+  - titre: Comment ça va
+    id: comment-ca-va
+    tagline: Quels lourds secrets cache cette formule de politesse ?
+    ville: Gaillac
+    date: octobre 2023
+    contexte: sur invitation du Trédunion (GEM de Gaillac) et de la ville de Gaillac dans le cadre des SISM
+    statut: jouée
+    feuilles: 5
 
   - titre: De ce qui provoque l'étonnement à ce que l'étonnement provoque
     id: etonnement
@@ -173,5 +108,114 @@ conferences:
     date: mars 2015
     contexte: ~
     statut: arrêtée
+
+
+documents:
+
+
+  - document: index
+    template: web/site
+    dist:
+      html: 'index.html'
+    sommaire:
+      - id: web/index-intro
+        template: ~
+
+  - document: cienokill-page
+    template: web/cienokill-page
+    dist:
+      html: 'cienokill-page.html'
+    sommaire: 
+      - id: presentation-je
+        template: ~
+
+  - document: admin
+    template: web/site
+    dist:
+      html: 'admin.html'
+    sommaire:
+      - id: web/index-admin
+        template: web/admin
+
+  - document: livre
+    template: livre/index
+    dist:
+      html: 'livre.html'
+      pdf: 'pdf/livre-conferences.pdf'
+    sommaire:
+      - id: livre/page-de-garde
+        template: livre/section
+
+      - id: mondes-possibles
+        template: livre/conference
+
+      - id: sens-de-la-vie
+        template: livre/conference
+      
+      - id: reine-rouge
+        template: livre/conference
+
+  - document: dossier
+    template: dossier/index
+    dist:
+      html: 'dossier.html'
+      pdf: 'pdf/dossier-conferences.pdf'
+    sommaire:
+      - id: dossier-couv
+        template: dossier/couv
+
+      - id: presentation-je
+        template: dossier/page-intro
+        
+      - id: comment-ca-va
+        template: dossier/conference
+
+      - id: etonnement
+        template: dossier/conference
+      
+      - id: anniversaires
+        template: dossier/conference
+   
+      - id: reine-rouge
+        template: dossier/conference
+
+      - id: mondes-possibles
+        template: dossier/conference
+
+      - id: nuit
+        template: dossier/conference
+
+      - id: memoire
+        template: dossier/conference
+
+      - id: sens-de-la-vie
+        template: dossier/conference
+
+      - id: documents
+        template: dossier/conference
+
+      - id: pareurs
+        template: dossier/conference
+
+      - id: bouteilles-de-lait
+        template: dossier/conference
+
+      - id: poches
+        template: dossier/conference
+
+      - id: collections
+        template: dossier/conference
+
+      - id: dossier-sceno
+        template: dossier/page
+
+      - id: dossier-format
+        template: dossier/page
+
+      - id: dossier-creations
+        template: dossier/page
+
+      - id: dossier-compagnie
+        template: dossier/page
 
 ...

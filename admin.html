@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Les conférences de poche</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/fonts.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+  </head>
+  <body>
+    <h3>DOCUMENTS:</h3>
+<table>
+<tr>
+  <th>document</th>
+  <th>version</th>
+  <th>HTML</th>
+  <th>live</th>
+  <th>export HTML</th>
+  <th>PDF</th>
+
+  <th>export PDF</th>
+</tr>
+<tr>
+  <th>index</th>
+  <td><form action="/dist/index" method="POST" target="response"><button>dist</button></form></td>
+  <td>V</td>
+  <td><a href="index.html">index.html</a></td>
+  <td><a href="/live/index">live html</a></td>
+  <td><form action="/export_html/index" method="POST" target="response"><button>export html</button></form></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <th>cienokill-page</th>
+  <td><form action="/dist/cienokill-page" method="POST" target="response"><button>dist</button></form></td>
+  <td>V</td>
+  <td><a href="cienokill-page.html">cienokill-page.html</a></td>
+  <td><a href="/live/cienokill-page">live html</a></td>
+  <td><form action="/export_html/cienokill-page" method="POST" target="response"><button>export html</button></form></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <th>admin</th>
+  <td><form action="/dist/admin" method="POST" target="response"><button>dist</button></form></td>
+  <td>V</td>
+  <td><a href="admin.html">admin.html</a></td>
+  <td><a href="/live/admin">live html</a></td>
+  <td><form action="/export_html/admin" method="POST" target="response"><button>export html</button></form></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <th>livre</th>
+  <td><form action="/dist/livre" method="POST" target="response"><button>dist</button></form></td>
+  <td>V</td>
+  <td><a href="livre.html">livre.html</a></td>
+  <td><a href="/live/livre">live html</a></td>
+  <td><form action="/export_html/livre" method="POST" target="response"><button>export html</button></form></td>
+  <td><a class="pdf" href="pdf/livre-conferences.pdf">pdf/livre-conferences.pdf</a></td>
+  <td><form action="/export_pdf/livre" method="POST" target="response"><button>export pdf</button></form></td>
+</tr>
+<tr>
+  <th>dossier</th>
+  <td><form action="/dist/dossier" method="POST" target="response"><button>dist</button></form></td>
+  <td>V</td>
+  <td><a href="dossier.html">dossier.html</a></td>
+  <td><a href="/live/dossier">live html</a></td>
+  <td><form action="/export_html/dossier" method="POST" target="response"><button>export html</button></form></td>
+  <td><a class="pdf" href="pdf/dossier-conferences.pdf">pdf/dossier-conferences.pdf</a></td>
+  <td><form action="/export_pdf/dossier" method="POST" target="response"><button>export pdf</button></form></td>
+</tr>
+</table>
+<form action="/dist" method="POST" target="response"><button>dist all</button></form>
+<button onclick="document.querySelectorAll('.pdf').forEach(e=>{e.href=e.innerHTML=e.innerHTML.slice(0,-4)+'-print.pdf'})">+ print</button>
+<button onclick="document.querySelectorAll('.pdf').forEach(e=>{e.href=e.innerHTML=e.innerHTML.slice(0,-10)+'.pdf'})">- print</button>
+<h3>REPONSE:</h3>
+<iframe name="response"></iframe>
+
+  </body>
+</html>

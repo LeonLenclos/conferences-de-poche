@@ -1,15 +1,18 @@
 makepdf()
 {
-  FILEWEB="pdf/${1}-conferences.pdf"
-  FILEPRINT="pdf/${1}-conferences-print.pdf"
-  #ADDR="http://localhost:8080/${1}"
-  ADDR="${1}.html"
+  ADDR="http://0.0.0.0:8881/"
+  HTML=$1
+  FILEWEB=$2
+  FILEPRINT="${2%.pdf}-print.pdf"
   TIME=10000
+  python -m http.server 8881 &
+  SERVER_PID=$!
   echo "Je vais créer ${FILEPRINT}, ça va prendre environ $(($TIME/1000)) secondes."
-  chromium --headless --disable-gpu --print-to-pdf=$FILEPRINT $ADDR --run-all-compositor-stages-before-draw --timeout=$TIME;
+  chromium --headless --disable-gpu --no-pdf-header-footer --print-to-pdf=$FILEPRINT $ADDR$HTML --run-all-compositor-stages-before-draw --timeout=$TIME;
   echo "Maintenant je vais créer ${FILEWEB}."
   ps2pdf -dPDFSETTINGS=/ebook $FILEPRINT $FILEWEB
+  kill $SERVER_PID;
 }
 
-makepdf dossier;  
-#makepdf livre;  
+
+makepdf $1 $2;
