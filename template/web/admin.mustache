@@ -1,4 +1,5 @@
 <h3>DOCUMENTS:</h3>
+<h2>Documents</h2>
 <table>
 <tr>
   <th>document</th>
@@ -16,7 +17,7 @@
   <td><form action="/dist/{{document}}" method="POST" target="response"><button>dist</button></form></td>
   <td>V{{version}}</td>
   <td><a href="{{dist.html}}">{{dist.html}}</a></td>
-  <td><a href="/live/{{document}}">live html</a></td>
+  <td><a href="/live_{{document}}">live html</a></td>
   <td><form action="/export_html/{{document}}" method="POST" target="response"><button>export html</button></form></td>
   <td>{{#dist.pdf}}<a class="pdf" href="{{dist.pdf}}">{{dist.pdf}}</a>{{/dist.pdf}}</td>
   <td>{{#dist.pdf}}<form action="/export_pdf/{{document}}" method="POST" target="response"><button>export pdf</button></form>{{/dist.pdf}}</td>
@@ -28,3 +29,23 @@
 <button onclick="document.querySelectorAll('.pdf').forEach(e=>{e.href=e.innerHTML=e.innerHTML.slice(0,-10)+'.pdf'})">- print</button>
 <h3>REPONSE:</h3>
 <iframe name="response"></iframe>
+
+<h2>Conferences</h2>
+
+<table>
+<tr>
+  <th>Titre</th>
+  <th>durée</th>
+  <th>feuilles</th>
+  <th>texte</th>
+
+</tr>
+{{#conferences}}
+<tr>
+  <th>{{titre}}<br/><small>({{id}})</small></th>
+  <td>{{duree}} min</td>
+  <td>{{feuilles}}</td>
+  <td><a href="contenu/{{id}}">texte</a></td>
+</tr>
+{{/conferences}}
+</table>

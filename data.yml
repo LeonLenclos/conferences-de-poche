@@ -1,6 +1,7 @@
 ---
 titre: Les conférences de poche
 tagline: Tout savoir sur rien du tout.
+site: conferences.cienokill.fr
 
 conferences:
 
@@ -137,6 +138,33 @@ documents:
       - id: web/index-admin
         template: web/admin
 
+  - document: fiche-tech-conferences
+    template: fiche-tech
+    dist:
+      html: 'fiche-tech-conferences.html'
+      pdf: 'pdf/fiche-tech-conferences.pdf'
+    sommaire:
+      - id: fiche-tech/standard
+        template: ~
+
+  - document: fiche-tech-conferences-autonomie
+    template: fiche-tech
+    dist:
+      html: 'fiche-tech-conferences-autonomie.html'
+      pdf: 'pdf/fiche-tech-conferences-autonomie.pdf'
+    sommaire:
+      - id: fiche-tech/autonomie
+        template: ~
+
+  - document: fiche-tech-conferences-residence
+    template: fiche-tech
+    dist:
+      html: 'fiche-tech-conferences-residence.html'
+      pdf: 'pdf/fiche-tech-conferences-residence.pdf'
+    sommaire:
+      - id: fiche-tech/residence
+        template: ~
+
   - document: livre
     template: livre/index
     dist:
@@ -161,7 +189,7 @@ documents:
       html: 'dossier.html'
       pdf: 'pdf/dossier-conferences.pdf'
     sommaire:
-      - id: dossier-couv
+      - id: dossier/couv
         template: dossier/couv
 
       - id: presentation-je
@@ -206,16 +234,16 @@ documents:
       - id: collections
         template: dossier/conference
 
-      - id: dossier-sceno
+      - id: dossier/sceno
         template: dossier/page
 
-      - id: dossier-format
+      - id: dossier/format
         template: dossier/page
 
-      - id: dossier-creations
+      - id: dossier/creations
         template: dossier/page
 
-      - id: dossier-compagnie
+      - id: dossier/compagnie
         template: dossier/page
 
 ...

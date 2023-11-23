@@ -3,13 +3,13 @@ from bottle import route, run
 
 import make
 
-@route('/content/<content_id>')
+@route('/contenu/<content_id>')
 def content(content_id):
-    return make.get_content(content_id)
+    print(content_id)
+    content = make.get_content(content_id)
+    return make.fill_template('web/contenu', {'html':content})
 
-
-
-@route('/live/<doc>')
+@route('/live_<doc>')
 def live(doc):
     return make.make_document(make.get_document(doc));
 

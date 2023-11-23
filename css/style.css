@@ -1,3 +1,5 @@
+/* style.css */
+
 :root{
   --bleed:1;
 }
@@ -20,9 +22,23 @@
   background-color: lightpink;
 }
 
-img:after{
-  content:' (IMAGE)';
+img:after, .error:after{
+  float: left;
+  background: blue;
+  color: white;
+  font-weight: bold;
+  padding: .2em;
+   margin:.1em;
 }
+  
+.error:after {
+    content:' ERROR :';
+}
+
+img:after{
+  content:' IMAGE :';
+}
+
 
 p {
   margin:0;

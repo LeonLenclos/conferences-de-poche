@@ -8,6 +8,7 @@
   </head>
   <body>
     <h3>DOCUMENTS:</h3>
+<h2>Documents</h2>
 <table>
 <tr>
   <th>document</th>
@@ -24,7 +25,7 @@
   <td><form action="/dist/index" method="POST" target="response"><button>dist</button></form></td>
   <td>V</td>
   <td><a href="index.html">index.html</a></td>
-  <td><a href="/live/index">live html</a></td>
+  <td><a href="/live_index">live html</a></td>
   <td><form action="/export_html/index" method="POST" target="response"><button>export html</button></form></td>
   <td></td>
   <td></td>
@@ -34,7 +35,7 @@
   <td><form action="/dist/cienokill-page" method="POST" target="response"><button>dist</button></form></td>
   <td>V</td>
   <td><a href="cienokill-page.html">cienokill-page.html</a></td>
-  <td><a href="/live/cienokill-page">live html</a></td>
+  <td><a href="/live_cienokill-page">live html</a></td>
   <td><form action="/export_html/cienokill-page" method="POST" target="response"><button>export html</button></form></td>
   <td></td>
   <td></td>
@@ -44,17 +45,47 @@
   <td><form action="/dist/admin" method="POST" target="response"><button>dist</button></form></td>
   <td>V</td>
   <td><a href="admin.html">admin.html</a></td>
-  <td><a href="/live/admin">live html</a></td>
+  <td><a href="/live_admin">live html</a></td>
   <td><form action="/export_html/admin" method="POST" target="response"><button>export html</button></form></td>
   <td></td>
   <td></td>
+</tr>
+<tr>
+  <th>fiche-tech-conferences</th>
+  <td><form action="/dist/fiche-tech-conferences" method="POST" target="response"><button>dist</button></form></td>
+  <td>V</td>
+  <td><a href="fiche-tech-conferences.html">fiche-tech-conferences.html</a></td>
+  <td><a href="/live_fiche-tech-conferences">live html</a></td>
+  <td><form action="/export_html/fiche-tech-conferences" method="POST" target="response"><button>export html</button></form></td>
+  <td><a class="pdf" href="pdf/fiche-tech-conferences.pdf">pdf/fiche-tech-conferences.pdf</a></td>
+  <td><form action="/export_pdf/fiche-tech-conferences" method="POST" target="response"><button>export pdf</button></form></td>
+</tr>
+<tr>
+  <th>fiche-tech-conferences-autonomie</th>
+  <td><form action="/dist/fiche-tech-conferences-autonomie" method="POST" target="response"><button>dist</button></form></td>
+  <td>V</td>
+  <td><a href="fiche-tech-conferences-autonomie.html">fiche-tech-conferences-autonomie.html</a></td>
+  <td><a href="/live_fiche-tech-conferences-autonomie">live html</a></td>
+  <td><form action="/export_html/fiche-tech-conferences-autonomie" method="POST" target="response"><button>export html</button></form></td>
+  <td><a class="pdf" href="pdf/fiche-tech-conferences-autonomie.pdf">pdf/fiche-tech-conferences-autonomie.pdf</a></td>
+  <td><form action="/export_pdf/fiche-tech-conferences-autonomie" method="POST" target="response"><button>export pdf</button></form></td>
+</tr>
+<tr>
+  <th>fiche-tech-conferences-residence</th>
+  <td><form action="/dist/fiche-tech-conferences-residence" method="POST" target="response"><button>dist</button></form></td>
+  <td>V</td>
+  <td><a href="fiche-tech-conferences-residence.html">fiche-tech-conferences-residence.html</a></td>
+  <td><a href="/live_fiche-tech-conferences-residence">live html</a></td>
+  <td><form action="/export_html/fiche-tech-conferences-residence" method="POST" target="response"><button>export html</button></form></td>
+  <td><a class="pdf" href="pdf/fiche-tech-conferences-residence.pdf">pdf/fiche-tech-conferences-residence.pdf</a></td>
+  <td><form action="/export_pdf/fiche-tech-conferences-residence" method="POST" target="response"><button>export pdf</button></form></td>
 </tr>
 <tr>
   <th>livre</th>
   <td><form action="/dist/livre" method="POST" target="response"><button>dist</button></form></td>
   <td>V</td>
   <td><a href="livre.html">livre.html</a></td>
-  <td><a href="/live/livre">live html</a></td>
+  <td><a href="/live_livre">live html</a></td>
   <td><form action="/export_html/livre" method="POST" target="response"><button>export html</button></form></td>
   <td><a class="pdf" href="pdf/livre-conferences.pdf">pdf/livre-conferences.pdf</a></td>
   <td><form action="/export_pdf/livre" method="POST" target="response"><button>export pdf</button></form></td>
@@ -64,7 +95,7 @@
   <td><form action="/dist/dossier" method="POST" target="response"><button>dist</button></form></td>
   <td>V</td>
   <td><a href="dossier.html">dossier.html</a></td>
-  <td><a href="/live/dossier">live html</a></td>
+  <td><a href="/live_dossier">live html</a></td>
   <td><form action="/export_html/dossier" method="POST" target="response"><button>export html</button></form></td>
   <td><a class="pdf" href="pdf/dossier-conferences.pdf">pdf/dossier-conferences.pdf</a></td>
   <td><form action="/export_pdf/dossier" method="POST" target="response"><button>export pdf</button></form></td>
@@ -75,6 +106,96 @@
 <button onclick="document.querySelectorAll('.pdf').forEach(e=>{e.href=e.innerHTML=e.innerHTML.slice(0,-10)+'.pdf'})">- print</button>
 <h3>REPONSE:</h3>
 <iframe name="response"></iframe>
+
+<h2>Conferences</h2>
+
+<table>
+<tr>
+  <th>Titre</th>
+  <th>durée</th>
+  <th>feuilles</th>
+  <th>texte</th>
+
+</tr>
+<tr>
+  <th>Comment ça va<br/><small>(comment-ca-va)</small></th>
+  <td> min</td>
+  <td>5</td>
+  <td><a href="contenu/comment-ca-va">texte</a></td>
+</tr>
+<tr>
+  <th>De ce qui provoque l'étonnement à ce que l'étonnement provoque<br/><small>(etonnement)</small></th>
+  <td> min</td>
+  <td></td>
+  <td><a href="contenu/etonnement">texte</a></td>
+</tr>
+<tr>
+  <th>Les anniversaires<br/><small>(anniversaires)</small></th>
+  <td> min</td>
+  <td></td>
+  <td><a href="contenu/anniversaires">texte</a></td>
+</tr>
+<tr>
+  <th>Le syndrome de la reine rouge<br/><small>(reine-rouge)</small></th>
+  <td> min</td>
+  <td></td>
+  <td><a href="contenu/reine-rouge">texte</a></td>
+</tr>
+<tr>
+  <th>Les mondes possibles<br/><small>(mondes-possibles)</small></th>
+  <td> min</td>
+  <td></td>
+  <td><a href="contenu/mondes-possibles">texte</a></td>
+</tr>
+<tr>
+  <th>La nuit est un lieu que l’on visite toutes les nuits<br/><small>(nuit)</small></th>
+  <td> min</td>
+  <td></td>
+  <td><a href="contenu/nuit">texte</a></td>
+</tr>
+<tr>
+  <th>Six techniques pour améliorer votre mémoire<br/><small>(memoire)</small></th>
+  <td> min</td>
+  <td></td>
+  <td><a href="contenu/memoire">texte</a></td>
+</tr>
+<tr>
+  <th>La question du sens de la vie<br/><small>(sens-de-la-vie)</small></th>
+  <td> min</td>
+  <td></td>
+  <td><a href="contenu/sens-de-la-vie">texte</a></td>
+</tr>
+<tr>
+  <th>Sur les documents<br/><small>(documents)</small></th>
+  <td> min</td>
+  <td></td>
+  <td><a href="contenu/documents">texte</a></td>
+</tr>
+<tr>
+  <th>Les pareurs<br/><small>(pareurs)</small></th>
+  <td> min</td>
+  <td></td>
+  <td><a href="contenu/pareurs">texte</a></td>
+</tr>
+<tr>
+  <th>À propos des bouteilles de lait<br/><small>(bouteilles-de-lait)</small></th>
+  <td> min</td>
+  <td></td>
+  <td><a href="contenu/bouteilles-de-lait">texte</a></td>
+</tr>
+<tr>
+  <th>Ce qui est dans ma poche ce qui est en dehors et le reste<br/><small>(poches)</small></th>
+  <td> min</td>
+  <td></td>
+  <td><a href="contenu/poches">texte</a></td>
+</tr>
+<tr>
+  <th>Une collection de collections vides n’est pas une collection vide<br/><small>(collections)</small></th>
+  <td> min</td>
+  <td></td>
+  <td><a href="contenu/collections">texte</a></td>
+</tr>
+</table>
 
   </body>
 </html>
