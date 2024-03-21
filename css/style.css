@@ -22,21 +22,37 @@
   background-color: lightpink;
 }
 
-img:after, .error:after{
-  float: left;
-  background: blue;
-  color: white;
-  font-weight: bold;
-  padding: .2em;
-   margin:.1em;
+img {
+  font-family: monospace;
+  font-size: small;
+  display: block;
+ background: lightgray;
+  width : 100%;
 }
-  
-.error:after {
-    content:' ERROR :';
+img:hover:after {
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  background: white;
+  top:0;
+  padding: 1em;
+  border: .2em solid black;
+  text-decoration:underline;
+ content:attr(src);
+ padding:1em
 }
 
-img:after{
-  content:' IMAGE :';
+
+.error:after {
+ float:left;
+ background:blue;
+ color:white;
+ font-weight:bold;
+ padding:.2em;
+ margin:.1em
+}
+.error:after {
+ content:' ERROR :'
 }
 
 

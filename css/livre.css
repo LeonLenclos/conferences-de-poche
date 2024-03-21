@@ -2,16 +2,171 @@
 
 :root{
   --bleed:1;
+  --small:6pt;
 }
 
 @media print {
   @page {
     font-family: "Liberation Serif", monospace;
-    size: 210mm 297mm;
-    margin-top: 20mm;
+    size: 100mm 140mm;
+    margin-top: 15mm;
     margin-bottom: 10mm;
     bleed:3mm;
-    font-size: 13pt;
+    font-size: 9.5pt;
   }
+  @page:left {
+    margin-left: 12mm;
+    margin-right: 16mm;
+
+  }
+
+  @page:right {
+    margin-left: 16mm;
+    margin-right: 12mm;
+
+  }
+
+@page conference:left{
+    @top-right {
+      content: string(title);
+      font-size: var(--small);
+      font-style: italic;
+    }
+    @bottom-left {
+      content: counter(page);
+      font-size: var(--small);
+    }
 }
 
+@page conference:right{
+    @top-left {
+      content:  string(chapter);
+      font-size: var(--small);
+      font-style: italic;
+    }
+    @bottom-right {
+      content: counter(page);
+      font-size: var(--small);
+    }
+}
+
+@page conference:right{
+    @top-left {
+      content:  string(chapter);
+      font-size: var(--small);
+      font-style: italic;
+    }
+    @bottom-right {
+      content: counter(page);
+      font-size: var(--small);
+    }
+}
+
+
+  h1 {
+    string-set: title content(text);
+  }
+  .conference h2 {
+    string-set: chapter content(text);
+  }
+
+  .conference {
+  page: conference;  
+}
+
+  .section, .conference {
+    break-before: right;
+  }
+
+h2 {
+  font-size: inherit;
+  font-size: 14pt;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 5em;
+  text-transform: uppercase;
+}
+
+.infos{
+  border-top:1pt solid black;
+margin-top 2em;
+    font-size: var(--small);
+}
+/*
+.conference p:first-of-type:first-letter {
+  font-size: 14pt;
+}
+*/
+
+.chapter-title{
+
+}
+
+
+
+#sommaire ul {
+ list-style:none;
+  padding: 0;
+  font-size:6pt;;
+  font-style: italic;
+ padding-right: 3em;
+}
+
+#sommaire li {
+  position: relative;
+ 
+}
+
+#sommaire a {
+ color:inherit;
+ text-decoration:inherit;
+  background: white;
+  padding-right: .2em;
+}
+#sommaire a::after {
+  font-style:normal;
+ content: '....................................................................................................... '
+   target-counter(attr(href url), page);
+  display: block; 
+  float:right;
+  text-align: right;
+  position: relative;
+  bottom: 1.1em;
+  left: 3em;
+  z-index: -1;
+
+}
+
+
+#livre\/page-de-garde h1 {
+margin-top:50%;
+font-size: 12pt;
+font-style:italic;
+text-transform:uppercase;
+}
+
+#livre\/page-de-garde h2 {
+  font-size: inherit;
+font-style:normal;
+text-transform:uppercase;
+}
+
+#livre\/page-de-garde * {
+text-align: center;
+}
+
+.icons {
+justify-content:center;
+display: flex;
+flex-direction:row;
+}
+#livre\/legal img {
+background:none;
+margin:1.5mm;
+}
+
+#livre\/legal * {
+  font-size: var(--small);
+  text-align: center;
+}

@@ -21,6 +21,7 @@ conferences:
     date: septembre 2023
     contexte: sur invitation des Scènes Croisées de Lozère
     statut: jouée
+    feuilles: 6
 
   - titre: Les anniversaires
     id: anniversaires
@@ -29,6 +30,7 @@ conferences:
     date: mai 2023
     contexte: sur invitation de Graines de Rue pour les 25 ans du festival
     statut: jouée
+    feuilles: 6
 
   - titre:  Le syndrome de la reine rouge
     id: reine-rouge
@@ -37,6 +39,7 @@ conferences:
     date: octobre 2022
     contexte: sur invitation de l’Espace Job 
     statut: jouée
+    feuilles: 5
 
   - titre: Les mondes possibles
     id: mondes-possibles
@@ -45,6 +48,7 @@ conferences:
     date: septembre 2022
     contexte: sur invitation du Quai des Savoirs
     statut: jouée
+    feuilles: 6
 
   - titre: La nuit est un lieu que l’on visite toutes les nuits
     id: nuit
@@ -53,6 +57,7 @@ conferences:
     date: août 2021
     contexte: sur invitation de la Compagnie des Clous
     statut: jouée
+    feuilles: 5
 
   - titre: Six techniques pour améliorer votre mémoire
     id: memoire
@@ -61,6 +66,7 @@ conferences:
     date: novembre 2019
     contexte: sur invitation du Transmuttateur au théâtre Berthelot
     statut: jouée
+    feuilles: 6
 
   - titre:  La question du sens de la vie
     id: sens-de-la-vie
@@ -69,6 +75,7 @@ conferences:
     date: juin 2019
     contexte: sur invitation de l’association 2 SI2 LA pour l’exposition C’est par où la vie ? 
     statut: jouée
+    feuilles: 4
 
   - titre: Sur les documents
     id: documents
@@ -77,6 +84,7 @@ conferences:
     date: mars 2019
     contexte:  sur invitation du collectif S.P.O.R.T.S pour l’exposition DO-KU-MAN
     statut: jouée
+    feuilles: 5
 
   - titre: Les pareurs
     id: pareurs
@@ -85,6 +93,7 @@ conferences:
     date: mars 2017
     contexte: sur invitation du collectif Process’art pour l’exposition SHEDS
     statut: jouée
+    feuilles: 9
 
   - titre: À propos des bouteilles de lait
     id: bouteilles-de-lait
@@ -93,6 +102,7 @@ conferences:
     date: décembre 2015
     contexte: sur invitation du collectif Dans la norme pour l’exposition Mouvement vers l’inconnu
     statut: arrêtée
+    feuilles: 6
 
   - titre: Ce qui est dans ma poche ce qui est en dehors et le reste
     id: poches
@@ -101,6 +111,7 @@ conferences:
     date: mai 2015
     contexte: sur invitation et sous le regard de Samah Slim pour l’exposition Brelan
     statut: arrêtée
+    feuilles: 0
 
   - titre: Une collection de collections vides n’est pas une collection vide
     id: collections
@@ -109,7 +120,7 @@ conferences:
     date: mars 2015
     contexte: ~
     statut: arrêtée
-
+    feuilles: 1
 
 documents:
 
@@ -174,7 +185,16 @@ documents:
       - id: livre/page-de-garde
         template: livre/section
 
+      - id: livre/avant-propos
+        template: livre/section
+
+      - id: sommaire
+        template: livre/sommaire
+
       - id: mondes-possibles
+        template: livre/conference
+
+      - id: etonnement
         template: livre/conference
 
       - id: sens-de-la-vie
@@ -182,6 +202,39 @@ documents:
       
       - id: reine-rouge
         template: livre/conference
+
+      - id: comment-ca-va
+        template: livre/conference
+
+      - id: documents
+        template: livre/conference
+
+      - id: memoire
+        template: livre/conference
+
+      - id: anniversaires
+        template: livre/conference
+
+      - id: nuit
+        template: livre/conference
+
+      - id: pareurs
+        template: livre/conference
+
+      - id: bouteilles-de-lait
+        template: livre/conference
+
+      - id: poches
+        template: livre/conference
+
+      - id: collections
+        template: livre/conference
+
+      - id: livre/merci
+        template: livre/section
+
+      - id: livre/legal
+        template: livre/section
 
   - document: dossier
     template: dossier/index

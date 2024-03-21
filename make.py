@@ -12,6 +12,9 @@ def get_data():
     with open('data.yml', 'r') as file:
         data = yaml.safe_load(file)
         data['date'] = datetime.datetime.today().strftime('%d/%m/%Y')
+        for d in data['documents'] :
+            if d['document'] == 'livre':
+              data['sommaire'] = [{'id':item['id'], 'title':get_conference(item['id'], data)['titre']} for item in d['sommaire'] if item['template'] == 'livre/conference']
         return data
 
 def get_document(doc):
@@ -22,9 +25,9 @@ def get_document(doc):
     except StopIteration:
         return {}
 
-def get_conference(conf):
+def get_conference(conf, data=None):
     '''Return data of ginven conf'''
-    data = get_data()
+    data = data or get_data()
     try:
         return next(c for c in data['conferences'] if c['id'] == conf)
     except StopIteration:
