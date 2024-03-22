@@ -5,6 +5,16 @@ site: conferences.cienokill.fr
 
 conferences:
 
+  - titre: Les objets respirent aussi
+    id: objets
+    tagline: Comment s'animent les objets inanimés ?
+    ville: Marseille
+    date: mars 2024
+    contexte: sur invitation du Périscope à l'initiative de l'UsinoTOPIE au Théâtre de Cuisine
+    theme: l'âme des objets
+    statut: jouée
+    feuilles: 6
+
   - titre: Comment ça va
     id: comment-ca-va
     tagline: Quels lourds secrets cache cette formule de politesse ?
@@ -248,6 +258,9 @@ documents:
       - id: presentation-je
         template: dossier/page-intro
         
+      - id: objets
+        template: dossier/conference
+
       - id: comment-ca-va
         template: dossier/conference
 

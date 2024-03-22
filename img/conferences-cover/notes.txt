@@ -1,0 +1,3 @@
+Brush GIMP
+Size: 35
+Hardness: 45

@@ -5,7 +5,7 @@ CC0 1.0 universel.
 
 Vous pouvez copier, modifier, distribuer et représenter l’œuvre.
 
-Pour voir une copie de cette license, visite  
+Pour voir une copie de cette license, visitez  
 http://creativecommons.org/publicdomain/zero/1.0
 
 <div class="icons"><img style="width:20mm" src="img/legal/photocopie.svg" title="La photocopie ne tue pas le livre"></img></div>
