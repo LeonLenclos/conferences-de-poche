@@ -280,6 +280,9 @@ documents:
       - id: presentation-je
         template: dossier/page-intro
         
+      - id: nuees
+        template: dossier/conference
+
       - id: objets
         template: dossier/conference
 
