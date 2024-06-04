@@ -1,57 +1,18 @@
-*Dessin : Arrivée d'un train en gare de la Ciotat*
+![Arrivée d'un train en gare de la Ciotat](img/illu-livre/mondes-possibles/01.png)
 
-Peut être qu'il y en a parmis vous qui reconnaissent cette image,
-C'est L'Arrivée d'un train en gare de la Ciotat, 1895,
-*Dessin : "1895"*
-Un des tout premiers films de l'Histoire.
-Un film assez court. 50 secondes.
-Un film qui raconte une histoire assez simple :
-En gros c'est un train qui arrive en gare de la Ciotat.
+Peut être qu'il y en a parmis vous qui reconnaissent cette image, c'est *L'Arrivée d'un train en gare de la Ciotat* (1895). C'est un des tout premiers films de l'histoire du cinéma. Un film très court, à peine 50 secondes. Et qui raconte une histoire assez simple : L'histoire d'un train qui arrive en gare de la Ciotat.
 
-La première du film elle a lieu à Lyon,
-On est encore au 19e sciècle,
-Donc la majorité des gens dans la salle, ils ont jamais vu un film de leur vie,
-Et quand ils voient le train arriver, ils paniquent,
-Ils pensent qu'ils font se faire écraser, ils hurlent,
-Ils se lève de leur siège et ils quittent la salle en courant.
+La première projection de ce film elle a lieu à Lyon. Donc on est à la fin du 19e sciècle, la majorité des gens dans la salle n'ont jamais vu un film de leur vie, et quand ils voient le train arriver vers eux, ils paniquent, ils pensent que le train va les écraser, certains se mettent à hurler, d'autres se lèvent de leur siège et quittent la salle en courant.
 
-L'histoire de cette projection elle est assez connue,
-Il faut dire qu'elle est plutôt belle,
-Mais elle est totalement fausse.
+L'histoire de cette projection elle est assez connue (il faut dire qu'elle est plutôt belle), mais elle est totalement fausse. Ces personnes voyaient bien un film pour la première fois de leur vie, mais déjà elles étaient dans un théâtre, tout le monde sait que dans les théâtres il n'y a pas de train, les trains c'est dans les gares. Et puis, il ne faut pas oublier que c'était un film muet, en noir et blanc. Et même si pendant un instant les spectateurs avaient réussi à oublier, qu'ils étaient dans un théâtre, que les trains ne sont pas muets, Et que le monde réel est en couleur, il faut bien voir un truc, c'est que l'arrivée du train elle est filmé depuis le quai.
 
-Les gens voyaient bien un film pour la première fois de leur vie,
-Mais déjà ils étaient dans un théâtre,
-Tout le monde sait que dans les théâtres il n'y a pas de train,
-C'est dans les gare qu'il y a des trains,
-Et puis faut pas oublier que c'était un film muet, en noir et blanc.
-Et même si pendant un instant ils avaient réussi à oublier,
-Qu'ils étaient dans un théâtre,
-Que les trains ne sont pas muets,
-Et que le monde réel est en couleur,
-Il faut bien voir un truc,
-C'est que l'arrivée du train elle est filmé depuis le quai,
-Pas depuis les rails.
-Le point de vue du film c'est le point de vue de quelqu'un sur le quai.
-Donc au pire ils auraient pensé que le train allait leur passer à côté.
-Est-ce qu'on panique quand on est sur le quai et qu'on voit un train arriver ?
-Non.
+Le point de vue du film c'est le point de vue de quelqu'un sur le quai. Est-ce que quand on est sur un quai de gare et qu'on voit un train arriver on panique ? Non, bien sûr que non. Pareil, quand vous avez vu ce dessin, est-ce que à un moment vous vous êtes dit : <q>Au secour ! Le train va m'écraser !</q> ? Non, la perspective est bien faite, c'est évident que le train va passer à votre gauche.
 
-Pareil, quand j'ai dessiné ça,
-Est ce que à un moment vous vous êtes dit : "Le train va m'écraser !" ?
-Non. Impossible, la perspective est bien faite,
-C'est évident que le train va passer à votre gauche.
+---
 
-*Nouvelle page*
-Il y a une histoire un peu pareil avec la Guerre des mondes de Welles.
-*Dessin : "Welles"*
-À ne pas confondre avec la Guerre des mondes de Wells:
-*Dessin : "Wells"*
-La Guerre des monde de Wells c'est un roman,
-*Dessin : Tripode*
-Qui raconte l'invasion de la terre par les extraterrestres.
-La Guerre des monde de Welles c'est une adaptation radiophonique,
-*Dessin : Radio*
-De la Guerre des monde de Wells.
+Il y a une histoire un peu pareil avec *La Guerre des mondes* de Welles. À ne pas confondre avec *La Guerre des mondes* de Wells ! La Guerre des monde de Wells c'est un roman, qui raconte l'invasion de la terre par les extraterrestres. Et *La Guerre des monde* de Welles c'est l'adaptation radiophonique, du roman de Wells.
+
+![La guerre des mondes](img/illu-livre/mondes-possibles/01.png)
 
 Et donc Welles il est à la radio, en direct,
 Et il va raconter l'histoire de la guerre des mondes de Wells,

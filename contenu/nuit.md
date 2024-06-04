@@ -366,7 +366,6 @@ La nuit est un lieu.
 C'est le plus bel endroit sur terre.
 Et on a la chance de le visiter toutes les nuits.
 
-
 Fin.
 
 Annexe 1 : Les dessins.

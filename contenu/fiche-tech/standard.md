@@ -41,7 +41,7 @@ Chaque conférence dure entre 15 et 25 minutes.
 
 Merci de prévoir :
 
-- Un système de sonorisation adapté à la jauge, avec un technicien pour les balances et les représentations (n.b. ce spectacle se joue toujours amplifié quelle que soit la jauge).
+- Un système de sonorisation adapté à la jauge, avec un·e technicien·ne pour les balances et les représentations (n.b. ce spectacle se joue toujours amplifié quelle que soit la jauge).
 - Si nécessaire, un système d'éclairage adapté à l'espace
 - Un bureau ou une table (qui ne soit pas trop large et sur lequel on peut s’asseoir)
 - Une chaise

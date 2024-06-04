@@ -132,33 +132,84 @@ Cette retranscription est motivée par :
 
 La transcription du spectacle (textes parlés, dit devant un public, dessin en direct) à destination d'un livre (textes écrit, lu par une personne seule dans son coin, dessin immobile). Peut-être considéré comme un meurtre, la transformation d'une œuvre vivante en une œuvre morte.
 
+
+### Étapes de la retranscription
+
+VOIR [todo.ods](todo.ods)
+
+1. Taper le texte : Écrire tout le contenu de la conférence du début à la fin.
+2. Adapter le texte : Modifier le style litteraire du texte (voir details ci-dessous)
+3. Formater le texte : Modifier le style typographique et la mise en page du texte (voir details ci-dessous)
+4. Precorriger le texte : Faire une première verification de l'orthographe, de la grammaire et des règles typographiques en utilisant Gramalecte.
+5. Corriger le texte : Demander à une personne exterieure de revoir l'orthographe grammaire et règles typographiques avec un oeuil neuf.
+
+En parallèlle :
+
+1. Lister les images : Sous la forme `![description de l'image](img/illu-livre/titre-de-la-conf/##.png)
+2. integrer les images : Dessiner les images et les intéger au livre.
+
+
 ### Règles
 
-1. Je préfère que le texte soit intéressant et agréable à lire plutôt qu'il soit fidèle au spectacle.
-2. 
+Règle principale : Je préfère que le texte soit intéressant et agréable à lire plutôt qu'il soit fidèle au spectacle.
 
-Taille d'une ligne : 55 caractères
-Taille d'une page : 28 lignes
-Taille idéale pour une phrase : 1-3 lignes
-Taille d'un paragraphe : 2-15 lignes
+#### Adaptation du texte
 
-Particularité de style :
-Phrases ou paragraphes qui commencent par une conjonction : OK
-Usage abusif des parenthèses et parenthèses imbriquées : OK
-Usage de la négation sans le ne : OK
+Changer le sens dans les cas où :
 
-C'est pas plutot que ce n'est pas
-Ça ne fait pas plutot que ça fait pas
-on n'écoute plutôt qu'on écoute
-Typographie :
-Mettre en emphase les noms d'oeuvres.
-Les noms de marques
-Mettre en emphase les mots/phrases intégrés dans des phrases par exemple : on appelle ça un *truc*.
-Citations
+* Le texte doit s'adresser à des lecteur·ices, pas à des spectateur·ices.
+
+
+Sachant que :
+
+* Taille d'une ligne : 55 caractères
+* Taille d'une page : 28 lignes
+
+Essayer de réspecter :
+
+* Taille idéale pour une phrase : 1-3 lignes
+* Taille d'un paragraphe : 2-15 lignes
+
+Conserver ces particularité de style :
+
+* Phrases ou paragraphes qui commencent par une conjonction : OK
+* Usage abusif des parenthèses et parenthèses imbriquées : OK
+* Répétition d'un même mot plein de fois dans une phrase/un paragraphe : OK
+* Usage de la négation sans le ne : DÉPEND DES CAS
+
+Sur la négation : 
+
+- Omettre le *n'* quand il change la pronontiation des mots autours *C'est pas* plutot que *ce n'est pas*
+- Mettre le *n'* quand il est muet : *on n'écoute pas* plutôt que *on écoute pas*
+- Mettre le *ne* quand il ne change pas la pronontiation des mots autours  *Ça ne fait pas* plutot que *ça fait pas*.
+
+Inclusivité :
+
+- Les textes des conférences doivent être inclusifs autant que possible.
+- Mais éviter les formes d'écritures inclusives qui peuvent être considérées comme difficiles à oraliser.
 
 Modification par rapport à l'oralité.
-- Disparition des "Bon" "Ben"
+- Ne pas conserver les "Bon" "Ben"
 - Enlever quelques "Et" "E
+
+#### Formatage du texte
+
+Notes en bas de page :
+
+- https://ateliers.esad-pyrenees.fr/web/pages/ressources/ctrl-alt-print/pagedjs/exemples/footnotes.html
+- `<span class="footnote"></span>`
+
+emphase `*texte*`:
+
+- les noms d'oeuvres.
+- Les noms de marques
+- les mots/groupes de mots intégrés dans des phrases par exemple : on appelle ça un *truc*.
+
+Citations `> texte` ou `<q>texte</q>`:
+
+- Toute citation d'oeuvre
+- Une personne qui parle
+
 
 
 Equilibre texte image :

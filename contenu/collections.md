@@ -239,7 +239,7 @@ Bien sûr dans ma collection de collections vides, je ne veux aucune collection 
 - Collection de ventres percés 
 - Collection d’infimes changements dans le comportement 
 - Collection de réunions 
-- Collection de papiers bulle  
+- Collection de papiers bulle
 - Collection de balcon 
 - Collection de bus circulaires 
 - Collection d’hublots 
@@ -298,7 +298,7 @@ On m'a déjà offert des collections vides, il n'y a rien de plus simple ni de p
 - Collection de différentes façons de mal orthographier « Croissance » 
 - Collection de conseils dans le vent 
 - Collection de manteaux de fourrure 
-- Collection de petites figurines représentant des animaux de la ferme  
+- Collection de petites figurines représentant des animaux de la ferme
 - Collection de vagues
 
 Avant de finir je voulais juste préciser quelquechose d'important. Cette collection de collections vide que je viens de décrire, dont je viens d'expliquer le fonctionnement et de lister les éléments, ce n'est pas une collection fictive. Ce n'est pas *tout ce que je pourrais posséder*, encore moins *quelles voitures de courses j'aurais si j'avais des voitures de courses*. Bien sûr, les collections vides de ma collection de collections vides sont issues de l'imagination. Mais ce n'est pas pour ça qu'elles ne sont pas. Une collection de collections vides n'est pas une collection vide.

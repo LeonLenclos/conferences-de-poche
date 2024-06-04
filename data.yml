@@ -5,6 +5,16 @@ site: conferences.cienokill.fr
 
 conferences:
 
+  - titre: Les nuées
+    id: nuees
+    tagline: À propos de la pluie et du beau temps.
+    ville: Millevaches
+    date: mai 2024
+    contexte: sur invitation du Parc Naturel Régional du plateau de Millevaches
+    theme: le changement climatique
+    statut: jouée
+    feuilles: 5
+
   - titre: Les objets respirent aussi
     id: objets
     tagline: Comment s'animent les objets inanimés ?
@@ -21,6 +31,7 @@ conferences:
     ville: Gaillac
     date: octobre 2023
     contexte: sur invitation du Trédunion (GEM de Gaillac) et de la ville de Gaillac dans le cadre des SISM
+    theme: la santé mentale
     statut: jouée
     feuilles: 5
 
@@ -30,6 +41,7 @@ conferences:
     ville: Mende
     date: septembre 2023
     contexte: sur invitation des Scènes Croisées de Lozère
+    theme: l'étonnement
     statut: jouée
     feuilles: 6
 
@@ -39,6 +51,7 @@ conferences:
     ville: Bessines sur Gartempe
     date: mai 2023
     contexte: sur invitation de Graines de Rue pour les 25 ans du festival
+    theme: les anniversaires
     statut: jouée
     feuilles: 6
 
@@ -48,6 +61,7 @@ conferences:
     ville: Toulouse
     date: octobre 2022
     contexte: sur invitation de l’Espace Job 
+    theme: l'informatique
     statut: jouée
     feuilles: 5
 
@@ -57,6 +71,7 @@ conferences:
     ville: Toulouse
     date: septembre 2022
     contexte: sur invitation du Quai des Savoirs
+    theme: la fiction 
     statut: jouée
     feuilles: 6
 
@@ -66,6 +81,7 @@ conferences:
     ville: Cuzals
     date: août 2021
     contexte: sur invitation de la Compagnie des Clous
+    theme: la nuit
     statut: jouée
     feuilles: 5
 
@@ -75,6 +91,7 @@ conferences:
     ville: Montreuil
     date: novembre 2019
     contexte: sur invitation du Transmuttateur au théâtre Berthelot
+    theme: ~
     statut: jouée
     feuilles: 6
 
@@ -84,6 +101,7 @@ conferences:
     ville: Arles
     date: juin 2019
     contexte: sur invitation de l’association 2 SI2 LA pour l’exposition C’est par où la vie ? 
+    theme: le sens de la vie
     statut: jouée
     feuilles: 4
 
@@ -93,6 +111,7 @@ conferences:
     ville: Montreuil
     date: mars 2019
     contexte:  sur invitation du collectif S.P.O.R.T.S pour l’exposition DO-KU-MAN
+    theme: les documents
     statut: jouée
     feuilles: 5
 
@@ -102,6 +121,7 @@ conferences:
     ville: Pantin
     date: mars 2017
     contexte: sur invitation du collectif Process’art pour l’exposition SHEDS
+    theme: ~
     statut: jouée
     feuilles: 9
 
@@ -111,6 +131,7 @@ conferences:
     ville: Paris
     date: décembre 2015
     contexte: sur invitation du collectif Dans la norme pour l’exposition Mouvement vers l’inconnu
+    theme: mouvement vers l'inconnu
     statut: arrêtée
     feuilles: 6
 
@@ -120,6 +141,7 @@ conferences:
     ville: Paris
     date: mai 2015
     contexte: sur invitation et sous le regard de Samah Slim pour l’exposition Brelan
+    theme: ce qui est dans ma poche ce qui est en dehors et le reste
     statut: arrêtée
     feuilles: 0
 
@@ -129,11 +151,11 @@ conferences:
     ville: Cergy
     date: mars 2015
     contexte: ~
+    theme: ~
     statut: arrêtée
     feuilles: 1
 
 documents:
-
 
   - document: index
     template: web/site
