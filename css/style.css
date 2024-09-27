@@ -64,7 +64,9 @@ p {
  
  hr {
    border:none;
-   height: 1em;
+   height: .8em;
+   size:.75em;
+   color:black;
  
  }
  hr:after{

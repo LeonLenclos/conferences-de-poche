@@ -1,7 +1,11 @@
 L’ensemble des textes et images de ce livre est placé sous la licence libre  
-CC0 1.0 universel. <div class="icons"><img style="width:1em" src="img/legal/cc.svg" title="CC" ></img> <img style="width:1em" src="img/legal/zero.svg" title="0" ></img></div>
+CC0 1.0 universel.
+<div class=".icons">
+<img class="ccicon" src="img/legal/cc.svg" title="CC" ></img> <img class="ccicon"  src="img/legal/zero.svg" title="0" ></img>
+</div>
 Vous pouvez copier, modifier, distribuer et représenter l’œuvre.  
-Pour voir une copie de cette licence, visitez → http://creativecommons.org/publicdomain/zero/1.0
+Pour voir une copie de cette licence,  
+visitez → http://creativecommons.org/publicdomain/zero/1.0
 
 <div class="icons"><img style="width:20mm" src="img/legal/photocopie.svg" title="La photocopie ne tue pas le livre"></img></div>
 
@@ -19,10 +23,16 @@ Imprimé en France
 
 Le prix du livre a été calculé comme ça :
 
-|               Prix de vente | 12,00 € |
-|-----------------------------|---------|
-| Coût de fabrication  (40 %) |  4,80 € |
-|       Part compagnie (10 %) |  1,20 € |
-|  Rémunération auteur (50 %) |  6,00 € |
+<table>
+<thead>
+    <tr><th>Prix de vente</th><th>12,00 €</th></tr>
+</thead>
+<tbody>
+    <tr><td>Coût de fabrication  (40 %)</td><td>4,80 €</td></tr>
+    <tr><td>Part compagnie (10 %)</td><td>1,20 €</td></tr>
+    <tr><td>Rémunération auteur (50 %)</td><td>6,00 €</td></tr>
+</tbody>
+</table>
 
+('<_ '
 

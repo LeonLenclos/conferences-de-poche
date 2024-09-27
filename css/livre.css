@@ -196,10 +196,18 @@ text-align: center;
 }
 
 .icons {
-justify-content:center;
-display: flex;
-flex-direction:row;
+ justify-content:center;
+ display:flex;
+ flex-direction:row
 }
+.ccicon {
+ margin:0;
+ padding:0;
+ width:2em;
+ display:inline
+}
+
+
 #livre\/legal img {
 background:none;
 margin:1.5mm;
@@ -209,3 +217,4 @@ margin:1.5mm;
   font-size: var(--small);
   text-align: center;
 }
+
