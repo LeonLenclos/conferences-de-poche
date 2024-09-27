@@ -229,6 +229,9 @@ documents:
       - id: etonnement
         template: livre/conference
 
+      - id: objets
+        template: livre/conference
+
       - id: sens-de-la-vie
         template: livre/conference
       
