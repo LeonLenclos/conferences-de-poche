@@ -20,9 +20,11 @@ J’associe un chiffre entre 0 et 9 à chacune de mes phalanges, comme sur un cl
 
 Enfin, dans les cas où ce que je dois compter risque de dépasser la centaine, j’utilise une dernière technique, *la technique binaire à 10 chiffres*. *À 10 chiffres* ça veut dire que chacun de mes doigts va représenter un chiffre. *Binaire* ça veut dire que chacun de ces chiffres peut avoir deux valeurs (0 ou 1). Cette technique est un peu plus compliquée, elle demande pas mal d’entraînement, mais elle a un énorme avantage : elle permet de compter au-delà de 1 000 !
 
+![Mains qui comptent en binaire à dix chiffres](img/illu-livre/reine-rouge/03.png)
+
 J’associe à chaque doigt une puissance de 2 (1, 2, 4, 8, 16, 32, 64, 128, 256, 512). Et pour savoir où j’en suis dans le compte, je n’ai qu’à additionner les nombres correspondant aux doigts levés.
 
-![Mains qui comptent en binaire à dix chiffres](img/illu-livre/reine-rouge/03.png)
+![Mains qui comptent en binaire à dix chiffres de 0 à 31](img/illu-livre/reine-rouge/04.png)
 
 Vous avez sûrement entendu parler de cette technique, elle est de plus en plus utilisée. Là, il y a quelques jours, j’étais chez une amie qui est tatoueuse et elle me racontait que de plus en plus de gens viennent se faire tatouer les puissances de 2 sur les doigts pour pouvoir plus facilement compter en binaire.
 
@@ -42,25 +44,33 @@ Rien que mon téléphone portable, mon ordinateur de poche, il fait 128 Go. *128
 
 Les ordinateurs n’ont pas toujours été aussi petits ! S’ils sont si petits aujourd’hui c’est principalement à cause de la loi de Moore. La loi de Moore pour résumer, ça dit que tous les deux ans on a besoin de deux fois moins de place pour construire un ordinateur de même puissance. Donc si mon ordinateur fait cette taille :
 
-![Un objet de taille 1](img/illu-livre/reine-rouge/04.png)
+![Un objet de taille 1](img/illu-livre/reine-rouge/05.png)
 
 Il y a deux ans, pour la même puissance, il aurait dû faire le double :
 
-![Un objet de taille 2](img/illu-livre/reine-rouge/05.png)
+![Un objet de taille 2](img/illu-livre/reine-rouge/06.png)
 
 Deux ans avant, le double du double :
 
-![Un objet de taille 4](img/illu-livre/reine-rouge/06.png)
+![Un objet de taille 4](img/illu-livre/reine-rouge/07.png)
 
 Deux ans avant, le double du double du double :
 
-![Un objet de taille 8](img/illu-livre/reine-rouge/07.png)
+![Un objet de taille 8](img/illu-livre/reine-rouge/08.png)
+
+Deux ans avant, le double du double du double du double :
+
+![Un objet de taille 16](img/illu-livre/reine-rouge/09.png)
 
 Et ainsi de suite :
 
-![Un objet de taille 16](img/illu-livre/reine-rouge/08.png)
+![Un objet de taille 32](img/illu-livre/reine-rouge/10.png)
 
-Donc là je m’arrête parce que je n’ai plus de place, mais vous avez compris le principe, c’est exponentiel, ça augmente très vite. Et si je répétais l’opération 50 fois, qu’est-ce qu’on découvrirait ? On découvrirait qu’il y a 100 ans, pour faire un ordinateur aussi puissant que mon ordinateur de poche il fallait un immeuble de 60 étages qui occupe toute la superficie de la ville de Toulouse.
+Donc là je vais m’arrêter parce que je n’ai plus de place.
+
+![Un objet de taille 64](img/illu-livre/reine-rouge/11.png)
+
+Mais vous avez compris le principe, c’est exponentiel, ça augmente très vite. Et si je répétais l’opération 50 fois, qu’est-ce qu’on découvrirait ? On découvrirait qu’il y a 100 ans, pour faire un ordinateur aussi puissant que mon ordinateur de poche il fallait un immeuble de 60 étages qui occupe toute la superficie de la ville de Toulouse.
 
 Et je trouve que ça explique assez bien pourquoi, à cette époque, personne n’avait envie de construire des ordinateurs. Parce que pour construire un ordinateur de la taille de Toulouse, déjà il te faut pas mal de place, et puis surtout il te faut du temps. Et il ne faudrait pas que la construction de l’ordinateur te prenne trop longtemps. Parce que si par exemple ça te prend 100 ans : au bout de 100 ans, le jour où tu as fini ta ville-ordinateur, tu es content, tu sors faire un tour pour en parler autour de toi et là, tu découvres quoi ? Que tout le monde a dans sa poche, un ordinateur aussi puissant que celui que tu viens de mettre 100 ans à construire !
 
@@ -72,19 +82,19 @@ Par exemple à la fin des années 90, on avait un logiciel qui s’appelait *Mic
 
 Si vous avez connu les Mac avant les années 2000, vous vous souvenez peut-être de ce très bel icone en forme de montre.
 
-![La petite montre de Susan](img/illu-livre/reine-rouge/09.png)
+![La petite montre de Susan](img/illu-livre/reine-rouge/12.png)
 
 C’était un curseur, qui avait été dessiné par Susan Kare. Et il apparaissait dès que l’ordinateur ramait. Et même si la montre était très bien dessinée et très jolie, les utilisateurs détestaient voir la petite montre de Susan. Et c’est normal car quand on attend quelque chose, il y a rien de plus agaçant que de regarder sa montre, ça fait paraître le temps encore plus long.
 
-![Utilisateur agacé qui regarde sa montre](img/illu-livre/reine-rouge/10.png)
+![Utilisateur agacé qui regarde sa montre](img/illu-livre/reine-rouge/13.png)
 
 Quand Apple a sorti sa nouvelle génération de système d’exploitation (OSX), ils auraient pu se dire : <q>les gens détestent voir la petite montre de Susan, en même temps nos ordis sont devenus plus puissants, on va s’arranger pour que les programmes ne rament plus.</q> Mais ils ne se sont pas du tout dit ça. Ils se sont dit : <q>Personne n’aime voir la petite montre de Susan, qu’à cela ne tienne, on va remplacer le joli dessin de Susan par un icone nettement moins joli. Une sorte de petite roue qui tourne, un peu en forme de spirale…</q>
 
-![La roue qui tourne en forme de spirale](img/illu-livre/reine-rouge/11.png)
+![La roue qui tourne en forme de spirale](img/illu-livre/reine-rouge/14.png)
 
 <q>…comme ça quand les ordinateurs rameront, ça va un peu hypnotiser les gens et ils ne vont pas voir le temps passer.</q>
 
-![Utilisateur hypnotisé](img/illu-livre/reine-rouge/12.png)
+![Utilisateur hypnotisé](img/illu-livre/reine-rouge/15.png)
 
 Sous aucun prétexte Apple n’aurait fait des programmes qui rament moins. Parce qu’il faut bien comprendre quelque chose : si les programmes ne rament plus, on n’a plus besoin de faire des nouveaux ordinateurs plus puissants. Et s’il n’y a plus de nouveaux ordinateurs plus puissants, aucune raison de faire des nouveaux programmes plus gourmands. Et s’il n’y a plus besoin de faire des nouveaux ordinateurs ni de faire des nouveaux programmes, c’est tout le modèle économique d’Apple qui s’effondre.
 
@@ -92,7 +102,7 @@ Sous aucun prétexte Apple n’aurait fait des programmes qui rament moins. Parc
 
 En fait, l’histoire de l’informatique, c’est le syndrome de la Reine rouge.
 
-![Alice et la Reine rouge](img/illu-livre/reine-rouge/13.png)
+![Alice et la Reine rouge](img/illu-livre/reine-rouge/16.png)
 
 Je ne sais pas si vous vous souvenez dans *Alice au pays des merveilles*, il y a ce passage où Alice et la Reine rouge courent pendant très longtemps. Elles courent dans une sorte de forêt. Et c’est très fatiguant pour Alice. Parce que la reine court vraiment vite et aussi ça fait vraiment longtemps qu’elles courent.
 
@@ -114,6 +124,7 @@ Le bug de l’an 2000 on a pris l’habitude de l’écrire comme ça :
 
 Le problème qu’on avait est assez simple à comprendre : Quand on faisait des programmes dans les années 80 et qu’il fallait garder la date en mémoire, on n’écrivait pas *1980* (ça prenait trop de place), on écrivait seulement *80*. Et au moment de restituer l’information on ajoutait *19* devant.
 
+![L'an 1980 en mémoire](img/illu-livre/reine-rouge/17.png)
 
 À cette époque les gens se disaient que c’était cool, car ça économisait pas mal de mémoire. Ils n’étaient pas bêtes, ils savaient bien que ça ne pourrait pas durer éternellement. Mais tout le monde était d’accord pour se dire que les programmes des années 80, ça ferait longtemps qu’ils ne seraient plus utilisés dans les années 2000.
 
@@ -121,7 +132,7 @@ Le problème qu’on avait est assez simple à comprendre : Quand on faisait des
 Sauf que 19 ans plus tard on est en 99, et il s’avère que des programmes des années 80 sont encore utilisés un peu partout dans le monde. Sauf que bientôt on va passer à l’an 2000. Et selon comment les programmes sont faits, soit ils vont nous ramener en 1900, soit (encore pire) nous emmener en 19100 ! Et croyez-moi, ça aurait eu des conséquences assez graves.
 
 
-![Diagramme du passage à l’an 1999 et du passage de l’an 1999 à l’an 1900 ou 19100.](img/illu-livre/reine-rouge/14.png)
+![Diagramme du passage à l’an 1999 et du passage de l’an 1999 à l’an 1900 ou 19100](img/illu-livre/reine-rouge/18.png)
 
 Heureusement on a réagi à temps ! Et surtout on a appris de nos erreurs. Maintenant ce n’est plus du tout comme ça qu’on stocke les dates en mémoire. Maintenant pour stocker la date on utilise généralement ce qui s’appelle le *temps POSIX*. Le temps POSIX c’est le nombre de secondes qui se sont écoulées depuis le 1<sup>er</sup> janvier 1970. Par exemple, au moment où j’écris ce texte, le temps POSIX c’est 1 666 012 960.
 

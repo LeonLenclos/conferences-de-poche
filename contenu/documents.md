@@ -8,11 +8,11 @@ Quand on parle de document (et c’est ce qu’on est en train de faire, là, on
 
 En vérité c’est plus compliqué que ça, parce que les personnes qui travaillent avec ce type de document, en général elles sont capable de faire ce qu’on appelle *prolonger les signes* voir même parfois *compléter les signes manquants. On a en fait l’exemple inverse du ticket de caisse : un document dont le support disparaît plus vite que l’information.
 
-![papyrus avec les signes complétés et prolongés](img/illu-livre/documents/02.png)
+![papyrus avec les signes complétés et prolongés](img/illu-livre/documents/03.png)
 
 De toute façon, ce qui est commun à tous les documents quels qu’ils soient, c’est cette idée qu’un document a toujours une durée de vie limitée. Tous les documents sont voués à mourrir. Tous les documents sont voués à disparaître. Et ça, ça nous embête ! Parce qu’un document, justement ça sert à quoi ? Ça sert à fixer une information (qui, on l’a dit, appartient au monde des idées, donc est très volatile) à un support, pour la conserver dans le temps. Alors évidement le fait que tous les documents soient voués à mourrir ça nous embête. Et comme d’habitude quand quelquechose comme ça nous embête on trouve tout un tas de solutions, tout un tas d’inventions, qui vont par exemple permettre de ralentir la destruction du document : la pochette cartonnée (qui protège assez bien le document mais qui a l’inconvéniant de le masquer en même temps qu’elle le protège), la pochette plastique (qui protège un peu moins bien que la pochette cartonnée mais qui a l’avantage de garder le document visible tout en le protégeant). Et puis, bien sûr, des inventions qui vont permettre d’accélerer la destruction des documents : la déchiqueteuse (machine dans laquelle on insère un document et d’où ressortent plein de petites bandelettes), et des inventions plus sophistiquées comme la *Xerox 530*.
 
-![Xerox 530](img/illu-livre/documents/03.png)
+![Xerox 530](img/illu-livre/documents/04.png)
 
 La *Xerox 530* c’est une machine qui a été commercialisée par *Xerox* dans les années 50. Elle a parfois été surnommée la *duplikilleuse*. Ça ressemble un peu à une grosse photocopieuse. Bien sûr, on est dans les années 50, les photocopieuses n’existent pas encore, mais c’est un peu le même principe. D’un côté de la machine il y a une fente par laquel on insére un document. Et de l’autre côté il y a une copie du document qui va sortir. Vous allez me dire que ça ressemble quand même drôlement à une photocopieuse, alors oui, mais la différence c’est que la technologie qui est en jeu à l’interieur de cette machine fait que l’original est systématiquement détruit. En fait c’est un peu comme une photocopieuse qui détruit l’original.
 

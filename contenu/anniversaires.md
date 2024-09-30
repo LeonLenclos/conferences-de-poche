@@ -10,12 +10,14 @@ Et il s’avère que j’avais déjà observé des comportements similaires chez
 
 Après c’est vrai il y avait aussi un petit côté satisfaisant, parce que évidemment quand on est enfant, et même pré-ado, puis ado, et même jeune adulte, vieillir globalement c’est plutôt chouette. Plus on vieillit plus on est libre ; plus on vieillit plus on est beau ; plus on vieillit plus on est intelligent. Et puis à un moment ça s’inverse on devient de moins en moins beau de moins en moins intelligent.
 
-![Graphique montrant l’évolution de l’intelligence en fonction de l’âge](img/illu-livre/anniversaires/03.png)
-
 Après je sais bien que quand je dis ça, je n’apprends rien à personne. Tout le monde le sait, même les enfants ils le savent bien. On le voit quand on est enfant que les adultes ils n’aiment pas fêter leur anniversaire, qu’ils n’aiment pas donner leur âge, alors que nous on est tout fier de dire qu’on a presque 6 ans et demi… Attention cependant,
 Quand je dis qu’à partir d’un moment en vieillissant on devient bête, c’est un peu plus complexe que ça. Bien sûr qu’en vieillissant on peut très bien gagner de la sagesse, apprendre des choses, voir même dans certains cas rester ouvert. C’est juste que globalement, passé un certain âge, vieillir rend bête (désolé, je ne sais pas comment le dire autrement). Même statistiquement c’est clair, on le voit. Par exemple les vieux ils votent n’importe comment, on a des chiffres là-dessus.
 
-Après ça veut pas dire encore une fois qu’on ne peut pas apprendre des choses et tout. Moi par exemple j’ai dépassé le pic de mon intelligence, je suis dans la période de ma vie où je suis de moins en moins intelligent. Et pourtant j’apprends des nouveaux trucs tout le temps. Rien que très récemment par exemple, j’ai appris que le truc jaune qu’on a dans les oreilles ça s’appelait *le cérumen*. Jusque-là j’avais toujours cru que c’était *la cire humaine*. Je pense que j’ai pas mal été influencé par une scène de *Shrek* où il fabrique une bougie à partir de son cérumen. Et comme je savais par ailleurs que les bougies ça se faisait avec de la cire (j’avais appris, notamment grâce à *Minecraft*, qu’on pouvait en faire avec de la cire d’abeille), du coup, je sais pas, quand les gens disaient *cérumen* j’entendais *cire humaine*.
+Après ça veut pas dire encore une fois qu’on ne peut pas apprendre des choses et tout. Moi par exemple j’ai dépassé le pic de mon intelligence, je suis dans la période de ma vie où je suis de moins en moins intelligent.
+
+![Graphique montrant l’évolution de l’intelligence en fonction de l’âge](img/illu-livre/anniversaires/03.png)
+
+Et pourtant j’apprends des nouveaux trucs tout le temps. Rien que très récemment par exemple, j’ai appris que le truc jaune qu’on a dans les oreilles ça s’appelait *le cérumen*. Jusque-là j’avais toujours cru que c’était *la cire humaine*. Je pense que j’ai pas mal été influencé par une scène de *Shrek* où il fabrique une bougie à partir de son cérumen. Et comme je savais par ailleurs que les bougies ça se faisait avec de la cire (j’avais appris, notamment grâce à *Minecraft*, qu’on pouvait en faire avec de la cire d’abeille), du coup, je sais pas, quand les gens disaient *cérumen* j’entendais *cire humaine*.
 
 ![Liens entre *Shrek*, l’abeille de *Minecraft* et la bougie](img/illu-livre/anniversaires/04.png)
 
@@ -50,19 +52,17 @@ Alors évidemment, quand on lit ces paroles, on se dit que ça ne vole pas haut 
 
 Louisville c’était aux États-Unis, dans le Kentucky. Donc la version qu’on connaît en France c’est une traduction, la version originale c’était *Happy Birthday*, mais en gros c’est la même chose. *Happy* ça veut juste dire *Joyeux* et *Birthday* c’est le mot qu’on utilise en général pour traduire *Anniversaire*.
 
-![Liens sémantiques entre *Happy Birthday* et *Joyeux Anniversaire*](img/illu-livre/anniversaires/06.png)
-
 Bien qu’*anniversaire* soit souvent utilisé pour traduire *birthday*, en réalité ce sont deux mots très différents. *Anniversaire* c’est l’union de deux concepts : *anni* qui veut dire *année*, et *versaire* (du latin *vertere*) qui veut dire *tourner*. *Birthday* c’est aussi l’union de deux idées, mais deux autres idées, totalement différentes : *birth* veut dire *naissance* et *day* ça veut dire la *date*, le *jour*.
 
-![Décomposition des mots *Anniversaire* et *Birthday*](img/illu-livre/anniversaires/07.png)
+![Liens sémantiques entre *Happy Birthday* et *Joyeux Anniversaire*](img/illu-livre/anniversaires/06.png)
 
 Et c’est vrai que parler de *jour* c’est très important pour comprendre ce que c’est qu’un anniversaire, c’est aussi important que de parler d’*année*. Par contre, le concept de *naissance*, je trouve qu’il limite un peu le sens du mot. Par exemple, comment on fait en anglais pour parler de l’anniversaire de la mort de quelqu’un ? Je ne pense pas qu’on dise <q>death birthday</q>… Peut-être tout simplement qu’en anglais on ne parle pas des anniversaires de mort, pourquoi pas. En vrai le concept d’anniversaire de mort ça m’a toujours un peu perturbé…
 
-![Sarah Bernhardt](img/illu-livre/anniversaires/08.png)
+![Sarah Bernhardt](img/illu-livre/anniversaires/07.png)
 
 Par exemple cette année, France Mémoire (France Mémoire c’est l’organisme qui décide un peu des anniversaires officiels en France) veut qu’on fête le 100<sup>e</sup> anniversaire de la mort de Sarah Bernhardt… C’est pas très sympa ! Déjà elle est morte, la pauvre. En soit, être morte c’est pas cool. Mais en plus, 100 ans après, nous on va fêter le fait qu’elle soit morte ?
 
-![Pablo Picasso](img/illu-livre/anniversaires/09.png)
+![Pablo Picasso](img/illu-livre/anniversaires/08.png)
 
 Encore quand France Mémoire ils proposent de fêter le cinquantenaire de la mort de Pablo Picasso je dis pas ! Picasso c’était une ordure, il est mort, tout le monde est content, je veux bien trinquer un coup. Mais Sarah Bernhardt, *quand même*…
 
@@ -74,7 +74,7 @@ Sauf que le problème avec les anniversaires de mort, c’est que les gens ils n
 
 Alors les gens ils avaient trouvé une petite astuce pour un peu hacker ce système. C’était de donner à un enfant le prénom du saint du jour de sa naissance. Par exemple : tu as une fille qui naît le 5 mai, le 5 mai c’est la sainte Judith, donc tu appelles ta fille Judith. Et comme ça, le jour où Judith fêtera son anniversaire de naissance, si quelqu’un vient râler, elle pourra toujours lui faire croire qu’elle fête juste la sainte Judith !
 
-![Éphéméride au 5 mai](img/illu-livre/anniversaires/10.png)
+![Éphéméride au 5 mai](img/illu-livre/anniversaires/09.png)
 
 Ce type de calendrier comme ça, avec un seul jour par page, ça s’appelle une éphéméride. C’est un objet magnifique, en tout cas moi j’adore. Chaque jour en se levant le matin, on arrache une page et on la jette à la poubelle (ce qui symbolise un peu le fait qu’on ne peut pas revenir dans le passé). Et c’est toujours un moment très beau, notamment parce qu’il y a ce suspens de savoir sur quoi on va tomber, ce qu’on va trouver derrière. Et on est rarement déçu, parce qu’en général, derrière on trouve une autre date (ce qui symbolise un peu le fait que le temps suit son cours).
 
@@ -82,7 +82,7 @@ Le mot *éphéméride* ça vient de *éphémère*, un éphémère c’est un ins
 
 Donc les éphémères c’est des insectes qui ne vivent qu’une seule journée. Pendant cette journée ils vont donner naissance à une naïade. Cette naïade, elle va rester sous sa forme larvaire pendant 1 an, et au bout d’un an elle va spontanément se métamorphoser et vivre son unique journée d’éphémère.
 
-![Cycle de la vie de l’éphémère](img/illu-livre/anniversaires/11.png)
+![Cycle de la vie de l’éphémère](img/illu-livre/anniversaires/10.png)
 
 Et cette unique journée, vous vous en doutez, elle est très intense. Pour vous donner une idée d’à quel point c’est intense : les éphémères ils ne peuvent pas replier leurs ailes ! Karim m’a même dit qu’il y a des éphémères qui n’ont pas de bouche ! Tellement c’est intense leur vie, ils n’ont même pas le temps de manger !
 
@@ -90,14 +90,22 @@ Vous voyez, je pense, le lien entre l’éphémère et l’anniversaire, (c’es
 
 Le temps linéaire c’est simple, il faut s’imaginer quelqu’un qui marche, tout droit, le long d’un chemin, sans jamais s’arrêter.
 
+![Temps linéaire](img/illu-livre/anniversaires/11.png)
+
 Le temps cyclique c’est aussi simple, il faut s’imaginer quelqu’un qui marche, le long d’un chemin, sans jamais s’arrêter, mais son chemin à lui il est pas tout droit, il est circulaire.
 
-![Temps cyclique et linéaire](img/illu-livre/anniversaires/10.png)
+![Temps cyclique](img/illu-livre/anniversaires/12.png)
 
 Ces deux personnages marchent sans jamais faire demi-tour, sans jamais changer de rythme, sans jamais faire de pause, comme le temps qui suit son cours. Sur le dessin du temps linéaire on dit que là où se trouve le personnage, c’est le présent, le chemin qu’il a parcouru c’est le passé et le chemin qui reste à parcourir c’est le futur. Dans le dessin du temps cyclique c’est un peu différent, le personnage se trouve aussi au présent, mais un cycle représente une année. Quand le personnage aura réalisé un tour complet, il sera l’an prochain à la même date.
 
-Maintenant pour bien comprendre l’intérêt d’avoir ces deux visions concurrentes du temps, on va introduire un événement. On va assister à la naissance d’un nouveau-né. Sur chacune des deux représentations du temps, je dessine un nouveau-né aux pieds du personnage pour symboliser cette naissance.
+Maintenant pour bien comprendre l’intérêt d’avoir ces deux visions concurrentes du temps, on va introduire un événement. On va assister à la naissance d’un nouveau-né. Pour chacune des deux représentations du temps, je dessine un nouveau-né aux pieds du personnage pour symboliser cette naissance.
 
-Et je pense que vous commencez à saisir en quoi les deux représentations diffèrent. Pour le temps linéaire cette naissance est juste un événement ponctuel qui sera vite oublié une fois qu’il l’aura dépassé. Mais le temps cyclique, lui, repassera par cet événement à chaque cycle, l’événement se répétera chaque année à la même date, cette naissance va devenir un anniversaire. Ça, c’est ce qu’on appelle *enrouler le temps*. Dans un temps enroulé, tous les événements se répètent à intervalles réguliers, à chaque cycle telle personne naît à nouveau, tel être cher meurt à nouveau, tel événement historique se produit à nouveau, telle guerre se termine à nouveau, tel festival se fête à nouveau. Et année après année les événements s’empilent les uns sur les autres.
+![Temps linéaire mais avec un nouveau né par terre](img/illu-livre/anniversaires/13.png)
+
+Et je pense que vous commencez à saisir en quoi les deux représentations diffèrent. Pour le temps linéaire cette naissance est juste un événement ponctuel qui sera vite oublié une fois qu’il l’aura dépassé. Mais le temps cyclique, lui, repassera par cet événement à chaque cycle, l’événement se répétera chaque année à la même date, cette naissance va devenir un anniversaire.
+
+![Temps cyclique mais avec un nouveau né par terre](img/illu-livre/anniversaires/14.png)
+
+Ça, c’est ce qu’on appelle *enrouler le temps*. Dans un temps enroulé, tous les événements se répètent à intervalles réguliers, à chaque cycle telle personne naît à nouveau, tel être cher meurt à nouveau, tel événement historique se produit à nouveau, telle guerre se termine à nouveau, tel festival se fête à nouveau. Et année après année les événements s’empilent les uns sur les autres.
 
 Peut-être qu’un jour dans votre vie, vous allez croiser quelqu’un qui vous dira : <q>Ma mère et moi, on est nées le même jour</q>. Quelqu’un qui n’est pas capable d’enrouler le temps, ne sera pas capable de comprendre cette phrase, et se dira : <q>c’est impossible, on ne peut pas donner naissance le jour de sa propre naissance. Une mère et sa fille ne peuvent pas naître le même jour</q>. Mais vous, pour qui c’est totalement naturel d’enrouler le temps, cette phrase ne vous posera aucun problème.
