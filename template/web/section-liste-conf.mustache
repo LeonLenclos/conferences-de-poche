@@ -1,0 +1,10 @@
+{{{html}}}
+<p>En tout il y en a {{nombre_conferences}}.</p>
+<div class="plus">
+<p>Voilà la liste complète :</p>
+<ul>
+{{#conferences}}
+<li><em>{{titre}}</em><div class="plus"><p>{{tagline}} </p><p>Cette conférence a été créée à {{ville}} en {{date}}{{#contexte}} {{contexte}}{{/contexte}}.</p></div></li>
+{{/conferences}}
+</ul>
+</div>

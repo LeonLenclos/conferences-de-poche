@@ -12,6 +12,7 @@ def get_data():
     with open('data.yml', 'r') as file:
         data = yaml.safe_load(file)
         data['date'] = datetime.datetime.today().strftime('%d/%m/%Y')
+        data['nombre_conferences'] = len(data['conferences'])
         for d in data['documents'] :
             if d['document'] == 'livre':
               data['sommaire'] = [{'id':item['id'], 'title':get_conference(item['id'], data)['titre']} for item in d['sommaire'] if item['template'] == 'livre/conference']

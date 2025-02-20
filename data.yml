@@ -1,11 +1,22 @@
 ---
-titre: Les conférences de poche
+titre: Les Conférences de poche
 tagline: Tout savoir sur rien du tout.
 site: conferences.cienokill.fr
 
 conferences:
 
-  - titre: Les nuées
+  - titre: La gourmandise
+    id: gourmandise
+    tagline: Pourquoi tout ce qui est bon est mauvais ?
+    ville: Verson
+    date: janvier 2025
+    contexte: sur invitation de la ville de Verson à l'occasion du lancement du prix Recto-Verson 2025
+    theme: la gourmandise
+    statut: jouée
+    feuilles: 5
+    accessoires: ~
+
+  - titre: Les Nuées
     id: nuees
     tagline: À propos de la pluie et du beau temps.
     ville: Millevaches
@@ -14,6 +25,7 @@ conferences:
     theme: le changement climatique
     statut: jouée
     feuilles: 5
+    accessoires: Thermomètre
 
   - titre: Les objets respirent aussi
     id: objets
@@ -24,6 +36,7 @@ conferences:
     theme: l'âme des objets
     statut: jouée
     feuilles: 6
+    accessoires: ~
 
   - titre: Comment ça va
     id: comment-ca-va
@@ -34,28 +47,31 @@ conferences:
     theme: la santé mentale
     statut: jouée
     feuilles: 5
+    accessoires: ~
 
   - titre: De ce qui provoque l'étonnement à ce que l'étonnement provoque
     id: etonnement
     tagline: En quoi les escalators bouleversent notre vision du monde ?
-    ville: Mende
+    ville: Prades
     date: septembre 2023
     contexte: sur invitation des Scènes Croisées de Lozère
     theme: l'étonnement
     statut: jouée
     feuilles: 6
+    accessoires: Chute de bouchon
 
-  - titre: Les anniversaires
+  - titre: Les Anniversaires
     id: anniversaires
     tagline: De quoi parle-t-on quand on parle d'anniversaire ?
-    ville: Bessines sur Gartempe
+    ville: Bessines-sur-Gartempe
     date: mai 2023
     contexte: sur invitation de Graines de Rue pour les 25 ans du festival
     theme: les anniversaires
     statut: jouée
     feuilles: 6
+    accessoires: Âge au fond du verre
 
-  - titre:  Le syndrome de la reine rouge
+  - titre:  Le Syndrome de la Reine rouge
     id: reine-rouge
     tagline: Les ordinateurs peuvent-ils nous aider à compter jusqu’à l’infini ?
     ville: Toulouse
@@ -64,8 +80,9 @@ conferences:
     theme: l'informatique
     statut: jouée
     feuilles: 5
+    accessoires: Téléphone connecté à internet
 
-  - titre: Les mondes possibles
+  - titre: Les Mondes Possibles
     id: mondes-possibles
     tagline: Une apologie du mensonge et de la fiction.
     ville: Toulouse
@@ -74,18 +91,20 @@ conferences:
     theme: la fiction 
     statut: jouée
     feuilles: 6
+    accessoires: ~
 
   - titre: La nuit est un lieu que l’on visite toutes les nuits
     id: nuit
     tagline: Qu’est-ce que la nuit nous permet de voir quand on la regarde ?
     ville: Cuzals
     date: août 2021
-    contexte: sur invitation de la Compagnie des Clous
+    contexte: sur invitation de la Compagnie des Clous pour la Fête de la nuit
     theme: la nuit
     statut: jouée
     feuilles: 5
+    accessoires: ~
 
-  - titre: Six techniques pour améliorer votre mémoire
+  - titre: Six Techniques pour améliorer votre mémoire
     id: memoire
     tagline: Comment améliorer efficacement sa mémoire avec des techniques simples et accessibles à tous ?
     ville: Montreuil
@@ -94,8 +113,9 @@ conferences:
     theme: ~
     statut: jouée
     feuilles: 6
+    accessoires: ~
 
-  - titre:  La question du sens de la vie
+  - titre:  La Question du sens de la vie
     id: sens-de-la-vie
     tagline: De quoi la question du sens de la vie est la question et quel est son sens ?
     ville: Arles
@@ -104,6 +124,7 @@ conferences:
     theme: le sens de la vie
     statut: jouée
     feuilles: 4
+    accessoires: Chute de bouchon et tour du tableau
 
   - titre: Sur les documents
     id: documents
@@ -114,8 +135,9 @@ conferences:
     theme: les documents
     statut: jouée
     feuilles: 5
+    accessoires: Chemise cartonnée avec mail
 
-  - titre: Les pareurs
+  - titre: Les Pareurs
     id: pareurs
     tagline: Pourquoi un toit est toujours beau et pourquoi un toit est toujours penché ?
     ville: Pantin
@@ -124,6 +146,7 @@ conferences:
     theme: ~
     statut: jouée
     feuilles: 9
+    accessoires: Fausses lunettes de vue et chute de bouchon
 
   - titre: À propos des bouteilles de lait
     id: bouteilles-de-lait
@@ -134,6 +157,7 @@ conferences:
     theme: mouvement vers l'inconnu
     statut: arrêtée
     feuilles: 6
+    accessoires: ~
 
   - titre: Ce qui est dans ma poche ce qui est en dehors et le reste
     id: poches
@@ -144,16 +168,18 @@ conferences:
     theme: ce qui est dans ma poche ce qui est en dehors et le reste
     statut: arrêtée
     feuilles: 0
+    accessoires: Une chemise avec des poches
 
-  - titre: Une collection de collections vides n’est pas une collection vide
+  - titre: Une collection de collections vides n’est pas une collection vide
     id: collections
     tagline: Jusqu’où peut m’amener l’idée simple qu’une collection reste une collection même si elle ne contient aucun élément ?
     ville: Cergy
     date: mars 2015
-    contexte: ~
+    contexte: à l'ENSAPC
     theme: ~
     statut: arrêtée
     feuilles: 1
+    accessoires: La liste des collections et la collection d'écrous
 
 documents:
 
@@ -163,6 +189,22 @@ documents:
       html: 'index.html'
     sommaire:
       - id: web/index-intro
+        template: ~
+      - id: web/index-spectacle
+        template: ~
+      - id: web/index-livre
+        template: ~
+      - id: web/index-liste
+        template: web/section-liste-conf
+      - id: web/index-compter
+        template: ~
+      - id: web/index-prononciation
+        template: ~
+      - id: web/index-ecrous
+        template: ~
+      - id: web/index-faq
+        template: ~
+      - id: web/index-noter
         template: ~
 
   - document: cienokill-page
@@ -229,28 +271,13 @@ documents:
       - id: etonnement
         template: livre/conference
 
-      - id: objets
-        template: livre/conference
-
       - id: sens-de-la-vie
         template: livre/conference
-      
+
       - id: reine-rouge
         template: livre/conference
 
-      - id: comment-ca-va
-        template: livre/conference
-
-      - id: documents
-        template: livre/conference
-
-      - id: memoire
-        template: livre/conference
-
-      - id: anniversaires
-        template: livre/conference
-
-      - id: nuit
+      - id: objets
         template: livre/conference
 
       - id: pareurs
@@ -259,7 +286,22 @@ documents:
       - id: bouteilles-de-lait
         template: livre/conference
 
+      - id: comment-ca-va
+        template: livre/conference
+
+      - id: nuit
+        template: livre/conference
+
       - id: poches
+        template: livre/conference
+
+      - id: anniversaires
+        template: livre/conference
+
+      - id: memoire
+        template: livre/conference
+
+      - id: documents
         template: livre/conference
 
       - id: collections
@@ -283,6 +325,9 @@ documents:
       - id: presentation-je
         template: dossier/page-intro
         
+      - id: gourmandise
+        template: dossier/conference
+
       - id: nuees
         template: dossier/conference
 

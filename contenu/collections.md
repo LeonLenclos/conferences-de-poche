@@ -1,14 +1,16 @@
-Il y a quelques années j’ai commencé une collection d’écrous trouvés sur le trottoir. Ce ne sont que des écrous qui ont été trouvés par terre, dans la rue ou sur le trottoir. Quand j’ai commencé cette collection j’en avais quatre, des écrous que j’avais ramassés par terre, sans penser en faire une collection, juste comme ça, parce que je trouvais ça joli. Et en ramassant le quatrième je me suis dit <q>OK, c’est parti, c’est le moment, je commence cette collection d’écrous trouvés sur le trottoir</q>. J’étais plutôt fier de cette collection naissante, je suis tout de suite allé la montrer à une amie, et elle s’est moquée de moi. En disant que quatre éléments ce n’était pas du tout suffisant pour faire une collection, que c’était les enfants qui faisaient des collections avec quatre éléments, et qu’il allait me falloir beaucoup plus d’écrous trouvés par terre si je voulais prétendre avoir une collection d’écrous trouvés par terre.
+Il y a quelques années j’ai commencé une collection d’écrous trouvés sur le trottoir. Ce ne sont que des écrous qui ont été trouvés par terre, dans la rue ou sur le trottoir. Quand j’ai commencé cette collection j’en avais quatre, des écrous que j’avais ramassés par terre, sans penser en faire une collection, juste comme ça, parce que je trouvais ça joli. Et en ramassant le quatrième je me suis dit : <q>OK, c’est parti, c’est le moment, je commence cette collection d’écrous trouvés sur le trottoir</q>. J’étais plutôt fier de cette collection naissante, je suis tout de suite allé la montrer à une amie, et elle s’est moquée de moi. En disant que quatre éléments ce n’était pas du tout suffisant pour faire une collection, que c’était les enfants qui faisaient des collections avec quatre éléments, et qu’il allait me falloir beaucoup plus d’écrous trouvés par terre si je voulais prétendre avoir une collection d’écrous trouvés par terre.
 
-Il faut savoir que cette amie, son avis il compte beaucoup pour moi, et ça m’a un peu blessé quand elle m’a dit ça. Mais dans un deuxième temps, ça m’a fait me poser une question qui ne m’a pas quitté pendant plusieurs jours. J’ai assez vite admis que quatre ce n’est pas suffisant, mais alors c’est quoi le minimum d’éléments pour faire une collection ? Est-ce que c’est 7, est-ce que c’est 10 ? est-ce que c’est 100 ? Et comment trouver un nombre qui ne soit pas totalement arbitraire ? Donc je pensais beaucoup à ça, et puis un jour, je reçois la visite d’un ami mathématicien. Tout de suite, je lui parle de mon problème et lui, il me parle de théorie des ensembles.
+Il faut savoir que cette amie, son avis il compte beaucoup pour moi, et ça m’a un peu blessé quand elle m’a dit ça. Mais dans un deuxième temps, ça m’a fait me poser une question qui ne m’a pas quitté pendant plusieurs jours. J’ai assez vite admis que quatre ce n’est pas suffisant, mais alors c’est quoi le minimum d’éléments pour faire une collection ? Est-ce que c’est 7, est-ce que c’est 10 ? est-ce que c’est 100 ? Et comment trouver un nombre qui ne soit pas totalement arbitraire ? Donc je pensais beaucoup à ça, et puis un jour, je reçois la visite d’un ami mathématicien. Tout de suite, je lui parle de mon problème et lui, il me parle de théorie des ensembles.
 
-La théorie des ensembles c’est une théorie qui a été développée par George Cantor à la fin du XIX<up>e</sup> siècle et c’est vite devenu très important dans le monde des mathématiques. C’est assez simple à comprendre, en gros Cantor il définit un ensemble comme <q>un groupe d’objets pouvant être considérés comme un tout</q>. Donc par exemple on peut parler de l’ensemble des entiers naturels : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, etc. Mais je peux aussi parler, par exemple, de l’ensemble des pages de ce livre… Et en théorie des ensembles il y a un ensemble qui est un peu particulier et qu’on croise souvent qui s’appelle l’*ensemble vide*. Peut-être que vous connaissez le symbole qu’on utilise pour le représenter c’est un rond barré : ∅.
+La théorie des ensembles c’est une théorie qui a été développée par George Cantor à la fin du XIX<sup>e</sup> siècle et c’est vite devenu très important dans le monde des mathématiques. C’est assez simple à comprendre, en gros Cantor il définit un ensemble comme <q>un groupe d’objets pouvant être considérés comme un tout</q>.
 
-(Petite subtilité typographique, c’est très important de faire dépasser le trait du cercle, sinon ça fait *interdit de stationner*. C’est un peu la même différence qu’entre le *A* de *anarchisme* et le *A* de *apprentis conducteur*)
+Donc par exemple on peut parler de l’ensemble des entiers naturels : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, etc. Mais je peux aussi parler, par exemple, de l’ensemble des pages de ce livre. Et en théorie des ensembles il y a un ensemble qui est un peu particulier et qu’on croise souvent qui s’appelle l’*ensemble vide*. Peut-être que vous connaissez le symbole qu’on utilise pour le représenter c’est un rond barré : ∅.
+
+(Petite subtilité typographique, c’est très important de faire dépasser le trait du cercle, sinon ça fait *interdit de stationner*. C’est un peu la même différence qu’entre le *A* de *anarchisme* et le *A* de *apprenti conducteur*)
 
 ![Différence entre le A de l’anarchisme et le A des apprentis conducteurs et différence entre le symbole de l’interdiction de stationner et le symbole de l’ensemble vide](img/illu-livre/collections/01.png)
 
-Et donc ce que me proposait cet ami, c’est de considérer qu’une collection ce n’est rien d’autre qu’un ensemble, un ensemble d’objets que je possède et qui répondent à un même critère de sélection. Et comme je considère une collection comme un ensemble, cet ensemble peut très bien ne rien contenir, être un ensemble vide. En fait, le nombre minimum d’éléments pour faire une collection, c’est zéro ! Moi quand j’ai compris ça j’étais fou de joie. Car non seulement ça validait totalement ma collection de 4 écrous, qui avait déjà 4 éléments de plus que le minimum. Mais surtout ça me permettait d’avoir par exemple une collection de voitures de course, même si je ne possède aucune voiture de course, ce serait juste une collection vide de voiture de course. Et de la même manière je pourrais avoir, je ne sais pas, une collection de briques sans brique, une collection de barrages… J’ai donc pris la décision de collectionner les collections vides.
+Et donc ce que me proposait cet ami, c’est de considérer qu’une collection ce n’est rien d’autre qu’un ensemble, un ensemble d’objets que je possède et qui répondent à un même critère de sélection. Et comme je considère une collection comme un ensemble, cet ensemble peut très bien ne rien contenir, être un ensemble vide. En fait, le nombre minimum d’éléments pour faire une collection, c’est zéro ! Moi quand j’ai compris ça j’étais fou de joie. Car non seulement ça validait totalement ma collection de 4 écrous, qui avait déjà 4 éléments de plus que le minimum. Mais surtout ça me permettait d’avoir par exemple une collection de voitures de course, même si je ne possède aucune voiture de course, ce serait juste une collection vide de voitures de course. Et de la même manière je pourrais avoir, je ne sais pas, une collection de briques sans brique, une collection de barrages… J’ai donc pris la décision de collectionner les collections vides.
 
 - Collection de voitures de course
 - Collection de briques 
@@ -16,7 +18,7 @@ Et donc ce que me proposait cet ami, c’est de considérer qu’une collection 
 - Collection de photos d’escalier 
 - Collection de copies d’élèves de lycée ayant eu 20 à un devoir de philo 
 - Collection de genoux 
-- Collection de champions du monde d’échec 
+- Collection de champions du monde d’échecs 
 - Collection de céleris-raves 
 - Collection de déguisements jamais portés 
 - Collection de cabanes immortelles 
@@ -39,8 +41,8 @@ Et donc ce que me proposait cet ami, c’est de considérer qu’une collection 
 - Collection de voitures bleues 
 - Collection de voitures vertes 
 - Collection de voitures jaune et bleu 
-- Collection d’articles de journaux de 3000 caractères 
-- Collection d’articles de journaux de 2999 caractères 
+- Collection d’articles de journaux de 3 000 caractères 
+- Collection d’articles de journaux de 2 999 caractères 
 - Collection de collections de notices d’utilisation par nombre de caractères 
 - Collection d’interdictions 
 - Collection de biscuits 
@@ -63,14 +65,14 @@ Et donc ce que me proposait cet ami, c’est de considérer qu’une collection 
 
 J’ai dit au début que je considérais qu’une collection c’était <q>un ensemble d’objets que je possède et qui répondent à un même critère de sélection</q>. Cette définition elle est très importante pour construire ma collection de collections vides et elle est très précise. Par exemple, c’est important de préciser qu’une collection ce n’est pas l’ensemble de toutes les choses que je possède et qui répondent au même critère de sélection.
 
-Chez moi j’ai une collection de cuillères (c’est une collection non-vide, avec des cuillères dedans), cette collection c’est un ensemble d’objets que je possède et qui répondent au même critère de sélection : être une cuillère. Mais ce n’est pas l’ensemble de toutes les cuillères que je possède, car chez moi j’ai aussi des cuillères qui me servent juste à mélanger le sucre dans mon café ou à manger mes lentilles. Ces cuillères elles ne font pas partie de ma collection de cuillères, et ce n’est pas à cause de ce qu’elles sont (puisqu’il y a aussi des cuillères dans ma collection de cuillères qui sont très banales).
+Chez moi j’ai une collection de cuillères (c’est une collection non-vide, avec des cuillères dedans), cette collection c’est un ensemble d’objets que je possède et qui répondent au même critère de sélection : être une cuillère. Mais ce n’est pas l’ensemble de toutes les cuillères que je possède, car chez moi j’ai aussi des cuillères qui me servent juste à mélanger le sucre dans mon café ou à manger mes lentilles. Ces cuillères elles ne font pas partie de ma collection de cuillères, et ce n’est pas à cause de ce qu’elles sont (puisqu’il y a aussi des cuillères dans ma collection de cuillères qui sont très banales).
 
-Je viens de lister dans ma collection de collections vides, une collection vide de pistolets à eau. Il s’avère que chez moi, j’ai des pistolets à eau, j’en ai 3. Mais cela ne m’empêche pas d’avoir une collection vide de pistolets à eau, il me suffit d’exclure ces 3 pistolets à eau de ma collection de pistolets à eau.
+Je viens de lister dans ma collection de collections vides, une collection vide de pistolets à eau. Il s’avère que chez moi, j’ai des pistolets à eau, j’en ai 3. Mais cela ne m’empêche pas d’avoir une collection vide de pistolets à eau, il me suffit d’exclure ces 3 pistolets à eau de ma collection de pistolets à eau.
 
-- Collection de pièces d’échec avec défaut de fabrication 
+- Collection de pièces d’échecs avec défaut de fabrication 
 - Collection de lunettes anciennes 
 - Collection de chutes dans les escaliers 
-- ~~Collection de faux billets~~
+- <del>Collection de faux billets</del>
 - Collection de mauvaises intentions 
 - Collection de personnages sans nom 
 - Collection de diamants très précieux 
@@ -81,7 +83,7 @@ Je viens de lister dans ma collection de collections vides, une collection vide 
 - Collection d’atomes différents 
 - Collection d’œufs durs 
 - Collection de cadeaux de Noël revendus sur Ebay 
-- Collection de vidéos amateurs de vélo 
+- Collection de vidéos amateur de vélo 
 - Collection de lacets de tailles différentes 
 - Collection de choix difficiles à prendre 
 - Collection de F 
@@ -125,7 +127,7 @@ Si à un moment, une de ces collections acquiert un élément, elle doit immédi
 - Collection de tickets de métro de villes différentes 
 - Collection de mercredis 
 - Collection de chutes inoffensives 
-- Collection de coupes papier 
+- Collection de coupe-papiers 
 - Collection de fers 
 - Collection de produits dont le prix est le plus bas dans leur lieu de vente 
 - Collection de poignées de porte 
@@ -168,13 +170,13 @@ Si à un moment, une de ces collections acquiert un élément, elle doit immédi
 - Collection de canaux plus profonds que larges 
 - Collection de canaux plus larges que profonds 
 - Collection de canaux aussi larges que profonds 
-- Collection de tapis de bains ni brûlés ni mouillés 
+- Collection de tapis de bain ni brûlés ni mouillés 
 - Collection de moufles en laine 
 - Collection de gros mots gentils 
 - Collection de vents 
 - Collection de vernis
 
-Parfois les collectionneurs et collectionneuses utilisent des catégories pour organiser leur collection. Par exemple mon grand-père il avait une collection de timbres qui comprenait deux catégories : les timbres français qui étaient rangés par année, et les timbres étrangers qui étaient rangés par pays. Ma collection de collections vide, elle, ne comprend aucune catégorie et elle est rangée par ordre d’acquisition.
+Parfois les collectionneurs et collectionneuses utilisent des catégories pour organiser leur collection. Par exemple mon grand-père il avait une collection de timbres qui comprenait deux catégories : les timbres français qui étaient rangés par année, et les timbres étrangers qui étaient rangés par pays. Ma collection de collections vides, elle, ne comprend aucune catégorie et elle est rangée par ordre d’acquisition.
 
 - Collection de souffles 
 - Collection de statues de gorilles 
@@ -187,7 +189,7 @@ Parfois les collectionneurs et collectionneuses utilisent des catégories pour o
 - Collection de cailloux pesant ou 19 g ou 31 g 
 - Collection de sprays 
 - Collection de sacs plastiques colorés 
-- Collection d’étoiles mortes que l’on voit encore briller depuis la terre 
+- Collection d’étoiles mortes que l’on voit encore briller depuis la Terre 
 - Collection de moulins à purée cassés 
 - Collection d’arnaques du siècle 
 - Collection de bulles 
@@ -226,7 +228,7 @@ Parfois les collectionneurs et collectionneuses utilisent des catégories pour o
 
 Dans ma collection de collections vides, je ne veux pas de collection d’affiches, je ne veux pas de collection de champs lexicaux, je ne veux pas de collection de touches, je ne veux pas de collection de chiens. Parce qu’une collection bien sûr, ça se définit aussi par tout ce que ça ne contient pas. On refuse des éléments à nos collections, soit de manière arbitraire, par goût, comme moi qui ne veux pas de collection de flans, ou pour répondre à des règles précises qui vont donner à une collection plus de pertinence.
 
-Bien sûr dans ma collection de collections vides, je ne veux aucune collection qui ne soit pas vide. Mais je ne veux pas non plus de collection qui par son intitulé, serait condamnée à rester éternellement vide. Par exemple, je ne veux pas de collection de nombres impairs multiples de 2. Car comme il n’existe pas de nombre impair multiple de 2, cette collection serait condamnée à rester éternellement vide et elle aurait une place trop confortable dans ma collection de collections vides.
+Bien sûr dans ma collection de collections vides, je ne veux aucune collection qui ne soit pas vide. Mais je ne veux pas non plus de collection qui par son intitulé, serait condamnée à rester éternellement vide. Par exemple, je ne veux pas de collection de nombres impairs multiples de 2. Car comme il n’existe pas de nombre impair multiple de 2, cette collection serait condamnée à rester éternellement vide et elle aurait une place trop confortable dans ma collection de collections vides.
 
 - Collection de chalumeaux 
 - Collection de jurys 
@@ -259,10 +261,10 @@ Bien sûr dans ma collection de collections vides, je ne veux aucune collection 
 - Collection de granges 
 - Collection de beaux portails 
 - Collection d’objets qui font *tiiing* quand ils tombent 
-- Collection d’objets qui font un Fa quand on les percute 
+- Collection d’objets qui font un fa quand on les percute 
 - Collection d’objets que l’on croit silencieux mais qui en réalité émettent un très léger sifflement
 - Collection de chapeaux ou casquettes qui disent le métier de ceux qui les portent 
-- Collection de ventilation 
+- Collection de ventilations 
 - Collection de choses que des gens que je ne côtoie plus ont un jour oublié chez moi
 - Collection de lunettes de soleil de vue 
 - Collection de lunettes pour regarder une éclipse 
@@ -277,7 +279,7 @@ Bien sûr dans ma collection de collections vides, je ne veux aucune collection 
 
 En plus d’être absolument légère (toujours plus légère que le moindre écrou de ma collection d’écrous malgré ses 200 et quelques éléments) ma collection de collections vides ne me coûte rien. Ni pour l’acquisition des éléments, ni pour leur entretien, ni pour leur stockage.
 
-On m’a déjà offert des collections vides, il n’y a rien de plus simple ni de plus gratuit : <q>Tu veux une collection vide de coquilles d’œuf ?</q>, <q>Oui, merci beaucoup.</q>
+On m’a déjà offert des collections vides, il n’y a rien de plus simple ni de plus gratuit : <q>Tu veux une collection vide de coquilles d’œuf ?</q>, <q>Oui, merci beaucoup.</q>
 
 - Collection de coquilles d’œufs 
 - Collection d’escalopes 
@@ -303,6 +305,7 @@ On m’a déjà offert des collections vides, il n’y a rien de plus simple ni 
 - Collection de petites figurines représentant des animaux de la ferme
 - Collection de vagues
 
-Avant de finir je voulais juste préciser quelque chose d’important. Cette collection de collections vides que je viens de décrire, dont je viens d’expliquer le fonctionnement et de lister les éléments, ce n’est pas une collection fictive. Ce n’est pas tout ce que je pourrais posséder, encore moins quelles voitures de courses j’aurais si j’avais des voitures de courses. Bien sûr, les collections vides de ma collection de collections vides sont issues de l’imagination. Mais ce n’est pas pour autant qu’elles ne sont pas. Une collection de collections vides n’est pas une collection vide.
+Avant de finir je voulais juste préciser quelque chose d’important. Cette collection de collections vides que je viens de décrire, dont je viens d’expliquer le fonctionnement et de lister les éléments, ce n’est pas une collection fictive. Ce n’est pas tout ce que je pourrais posséder, encore moins quelles voitures de course j’aurais si j’avais des voitures de course. Bien sûr, les collections vides de ma collection de collections vides sont issues de l’imagination. Mais ce n’est pas pour autant qu’elles ne sont pas. Une collection de collections vides n’est pas une collection vide.
 
-![Ma collection d’écrous (photographie)](img/illu-livre/collections/02.png)
+<div class="page-break"></div>
+

@@ -26,9 +26,10 @@ img {
   font-family: monospace;
   font-size: small;
   display: block;
- background: lightgray;
-  width : 100%;
+  width : 90%;
+  margin: 2em auto;
 }
+
 img:hover:after {
   overflow: hidden;
   display: block;
@@ -64,15 +65,14 @@ p {
  
  hr {
    border:none;
-   height: .8em;
-   size:.75em;
+   height: .4em;
    color:black;
- 
+   margin:1em;
  }
  hr:after{
    display: block;
    text-align: center;
-  /* content:'∗∗∗'; */
-   content:'⁂';
+  /* content:'⁂'; */
+   content:'***';
 
  }

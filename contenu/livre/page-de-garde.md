@@ -1,10 +1,11 @@
-# Les conférences de poche
+# Les Conférences de poche
 
 ## Léon Lenclos
 
-
 Textes et illustrations issus du spectacle  
-*Les conférences de poche*  
-Un spectacle de Léon Lenclos  
+*Les Conférences de poche*
+
+Un spectacle de Léon Lenclos
+
 Présenté par la Cie NOKILL
 

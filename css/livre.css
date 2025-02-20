@@ -2,27 +2,27 @@
 
 :root{
   --bleed:1;
-  --small:6pt;
+  --small:6.5pt;
 }
 
 @media print {
   @page {
-    font-family: "Liberation Serif", monospace;
-    size: 100mm 140mm;
+    font-family: "EB Garamond", "Liberation Serif", serif;
+    size: 110mm 170mm;
     margin-top: 15mm;
-    margin-bottom: 10mm;
+    margin-bottom: 13mm;
     bleed:3mm;
     font-size: 9.5pt;
   }
   @page:left {
-    margin-left: 12mm;
-    margin-right: 16mm;
+    margin-left: 13mm;
+    margin-right: 20mm;
 
   }
 
   @page:right {
-    margin-left: 16mm;
-    margin-right: 12mm;
+    margin-left: 20mm;
+    margin-right: 13mm;
 
   }
 
@@ -50,11 +50,9 @@
     }
 }
 
-@page conference:right{
+@page conference:right:first{
     @top-left {
-      content:  string(chapter);
-      font-size: var(--small);
-      font-style: italic;
+      content:  '';
     }
     @bottom-right {
       content: counter(page);
@@ -62,6 +60,9 @@
     }
 }
 
+.page-break {
+break-before: page;
+}
 
   h1 {
     string-set: title content(text);
@@ -71,33 +72,68 @@
   }
 
   .conference {
-  page: conference;  
+  page: conference;
 }
+
 
   .section, .conference {
     break-before: right;
   }
 
-h2 {
-  font-size: inherit;
-  font-size: 14pt;
-  font-weight: normal;
-  font-style: italic;
-  text-align: center;
-  margin-bottom: 5em;
-  text-transform: uppercase;
+
+
+#livre\/page-de-garde * {
+text-align: center;
 }
+
+
+#livre\/page-de-garde h1,
+#livre\/page-de-garde h2
+{
+ font-family:inherit;
+ font-weight:normal;
+
+}
+#livre\/page-de-garde h1 {
+ margin-top:50%;
+     font-size: 1.5em;
+  text-transform: uppercase;
+
+}
+
+#livre\/page-de-garde h2 {
+   font-size: 1.5em;
+}
+
+h2 {
+   font-weight:normal;
+
+ font-size:inherit;
+ font-size:18pt;
+ line-height:18pt;
+ text-align:center;
+ margin-bottom:5em
+
+}
+.conference h2 {
+
+ letter-spacing:0;
+ margin-bottom:100vh
+
+}
+
+
 
 .infos{
   border-top: .5pt solid black;
-  font-size: var(--sma  ll);
+  font-size: var(--small);
   position: absolute;
   bottom: 0;
   padding: 1em;
 }
 
 blockquote, q{
-  font-style: italic;
+
 }
 blockquote::before, q::before {
     content: open-quote;
@@ -118,18 +154,20 @@ blockquote > p {
 display: inline;
 }
 blockquote, ul {
-margin : 1em 1.5em;
+margin-top : 1em;
+margin-bottom : 1em;
+margin-right: 1.2em;
 }
 
 ul {
-  list-style-type: square;
+  list-style-type: none;
   padding: 0;
 }
-
+/*
 li::marker {
   content:'• '
 }
-/*
+
 .conference p:first-of-type:first-letter {
   font-size: 14pt;
 }
@@ -144,30 +182,43 @@ li::marker {
 #sommaire ul {
  list-style:none;
   padding: 0;
-  font-size:6pt;;
-  font-style: italic;
- padding-right: 3em;
+  font-size:var(--small);
+  /*font-style: italic;*/
+  width:100%;
 }
 
 #sommaire li {
   position: relative;
- 
 }
 
 #sommaire li::marker {
-  content:''
+  content:'';
 }
 #sommaire a {
  color:inherit;
  text-decoration:inherit;
   background: white;
-  padding-right: .2em;
 }
+
+#sommaire a::before {
+  font-size:var(--small);
+  font-style:normal;
+  width:1.4em;
+ content: target-counter(attr(href url), page);
+  display: inline-block;
+  text-align: right;
+  margin: .2em .6em;
+  margin-left:0;
+}
+
+
+/*
+
 #sommaire a::after {
   font-style:normal;
  content: '....................................................................................................... '
    target-counter(attr(href url), page);
-  display: block; 
+  display: block;
   float:right;
   text-align: right;
   position: relative;
@@ -176,29 +227,18 @@ li::marker {
   z-index: -1;
 
 }
-
-
-#livre\/page-de-garde h1 {
-margin-top:50%;
-font-size: 12pt;
-font-style:italic;
-text-transform:uppercase;
-}
-
-#livre\/page-de-garde h2 {
-  font-size: inherit;
-font-style:normal;
-text-transform:uppercase;
-}
-
-#livre\/page-de-garde * {
-text-align: center;
-}
+*/
 
 .icons {
  justify-content:center;
  display:flex;
- flex-direction:row
+ flex-direction:row;
+ margin-bottom:1em;
+  margin-top:1em;
+}
+.icons.tools img {
+height:3em;
+width:auto;
 }
 .ccicon {
  margin:0;
@@ -210,11 +250,51 @@ text-align: center;
 
 #livre\/legal img {
 background:none;
-margin:1.5mm;
+margin:1mm;
+}
+#livre\/legal {
+font-family:"Open Sans";
+font-size:8.5pt;
+page :legal;
 }
 
+#livre\/legal.section {
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+
+@page legal{
+display: flex;
+flex-direction: column;
+justify-content: end;
+padding-bottom : 10mm;
+}
+
+
 #livre\/legal * {
-  font-size: var(--small);
+
   text-align: center;
+}
+
+#livre\/legal table {
+margin:auto;
+border-collapse:collapse;
+text-align: right;
+margin-bottom:.5em;
+border: .5pt solid;
+
+}
+#livre\/legal td,
+#livre\/legal th {
+padding: .1em .2em;
+border: 0 solid black;
+text-align: right;
+font-size:inherit;
+font-weight: normal;
+}
+
+#livre\/legal th {
+border-bottom: .5pt solid;
 }
 
