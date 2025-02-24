@@ -4,7 +4,7 @@ Suite à un nombre grandissant de demandes, j'ai conçu un guide pour compter su
 
 
 <div class="comptage plus">
-
+<button id="suitecomptage">Afficher la suite</button>
 </div>
   
 
@@ -43,10 +43,25 @@ Suite à un nombre grandissant de demandes, j'ai conçu un guide pour compter su
   
 
 <script>
+  function displayFirstSteps(n){
+     let steps = document.querySelectorAll('.comptage .step');
+     steps.forEach((s, i)=>{
+     console.log(i)
+        if(i>n){s.style.display='none';}
+        else{s.style.display='inline-grid';}
+      });
+      if(n>= steps.length){
+        document.getElementById('suitecomptage').style.display='none';
+      }
+      else{
+        document.getElementById('suitecomptage').style.display='block';
+      }
+  }
   
   function createHandsElement(l,r){
      let n = l*32 + r;
-     let div = document.createElement('div');                 
+     let div = document.createElement('div');
+     div.classList.add('step');
      let img1 = document.createElement('img');             
      let img2 = document.createElement('img');
      let caption = document.createElement('span');
@@ -66,8 +81,14 @@ Suite à un nombre grandissant de demandes, j'ai conçu un guide pour compter su
   }
   
   for(let i=0; i <1024; i++){
-    document.querySelector('.comptage').appendChild(createHandElementByNumber(i))
+    document.querySelector('.comptage').insertBefore(createHandElementByNumber(i),document.getElementById('suitecomptage'))
   }
+  stepCount = 10;
+  displayFirstSteps(stepCount)
+  document.getElementById('suitecomptage').addEventListener('click', ()=>{
+    stepCount +=10;
+    displayFirstSteps(stepCount)
+  });
 
  
 </script>

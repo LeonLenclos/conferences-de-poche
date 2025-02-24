@@ -44,7 +44,7 @@ J'explique ça dans la conférence sur les collections. Voilà les écrous en qu
 <script>
  document.addEventListener("scroll", (ev)=>{
     document.querySelectorAll('.ecrous img').forEach(e=>{
-        let angle = Math.floor(window.scrollY/3%360);
+        let angle = Math.floor(window.scrollY/3);
         e.style.rotate=angle+'deg'
     }); 
  }); 
@@ -58,5 +58,6 @@ width:unset;
 display:inline-block;
 vertical-align:middle;
 margin:0;
+  transition: rotate .3s;
 }
 </style>

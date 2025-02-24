@@ -8,7 +8,7 @@ Il y a un livre des <em>Conférences de poche</em>, tu peux l'avoir.
 les textes et les dessins des 14 premières conférences de poche.
 <div class=plus>
 
-<p><em>Les Conférences de poche</em> ; 212&nbsp;pages ; 17x11&nbsp;cm ; relié ; Prix&nbsp;:&nbsp;10.50€ ; ISBN&nbsp;979-10-426-3630-2</p>
+<p><em>Les Conférences de poche</em> ; 212&nbsp;pages ; 17&nbsp;×&nbsp;11&nbsp;cm ; relié ; Prix&nbsp;:&nbsp;10.50€ ; ISBN&nbsp;979-10-426-3630-2</p>
 
 
 </div>
@@ -42,7 +42,7 @@ display:block;
 
 @keyframes zoom {
   0%   {scale:100%;rotate:0;}
-  100% {scale:200%;rotate:10deg;}
+  100% {scale:120%;rotate:10deg;}
 }
 
 </style>

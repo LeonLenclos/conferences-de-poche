@@ -5,7 +5,7 @@
 <div class=plus>
 
 <p>C'est un spectacle de <a href="https://leonlenclos.net">Léon Lenclos</a> de la <a href="https://cienokill.fr">cie Nokill</a>.</p>
-<p>C'est un spectacle qui est jeu et toujours en création depuis le milieu des années 10. C'est des conférences d'une vingtaine de minutes sur différents sujets.</p>
+<p>C'est un spectacle qui est en jeu et toujours en création depuis le milieu des années 10. C'est des conférences d'une vingtaine de minutes sur différents sujets.</p>
 
 <ul>
 <li><a href="https://cienokill.fr/dates/?proj=12">Connaître les prochaines dates du spectacle</a></li>

@@ -216,7 +216,7 @@ documents:
         template: ~
 
   - document: admin
-    template: web/site
+    template: web/admin
     dist:
       html: 'admin.html'
     sommaire:

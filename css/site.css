@@ -33,6 +33,8 @@ body>img{
 }
 body>.plus, body>h1{
   margin: 6px;
+    margin-bottom: 30px;
+
 }
 
 img {

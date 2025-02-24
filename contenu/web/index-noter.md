@@ -9,11 +9,7 @@ Si tu as un avis sur <em>Les Conférences de poche</em>, tu peux donner une note
     <p>Personne ne saura la note que tu as mise. C'est vraiment juste entre toi et toi.</p>
     <div class=plus>
     <p>C'est comme les questions à choix multiple qu'il y a <a href="#intro">au début du site</a>. Je n'enregistre pas les réponses, c'est juste pour toi.</p>
-    <p>Quand on nous demande notre avis, on est souvent biaisé car on répond souvent en fonction de l'impacte qu'aura l'avis qu'on donne.
-    
-    <div class=plus><p>Par exemple, quand je vais dans des toilettes publiques et qu'une borne me demande de donner mon avis sur la propreté des toilettes, je suis rarement sincère car je pense aux répercussions que ma réponse aura sur les travailleur·euses qui nettoient cet endroit.</p></div>
-    
-    <p>Mais ici, pas la peine de prendre de précautions, tu peux être aussi honnête ou malhonnête que tu le souhaites, ça ne regarde que toi.</p>
+    <p>Pas la peine de prendre de précautions, tu peux être aussi honnête ou malhonnête que tu le souhaites, ça ne regarde que toi.</p>
     </div>
 </div>
 
