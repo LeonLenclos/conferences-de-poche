@@ -132,7 +132,11 @@ Le bug de l’an 2000 on a pris l’habitude de l’écrire comme ça :
 
 > Y2K BUG
 
-(Le *Y* ça veut dire *année* en anglais, et le *K* ça veut dire *1 000* c’est le *K* de *Kilo*). Le bug de l’an 2000 c’est donc un bug qui n’a pas eu lieu. Il devait se produire au 1<sup>er</sup> janvier 2000 un peu partout dans le monde. Et s’il n’a pas eu lieu c’est parce qu’on a vraiment eu peur et qu’on a dépensé des centaines de milliards de dollars pour le corriger avant qu’il ne se produise.
+(Le *Y* ça veut dire *année* en anglais, et le *K* ça veut dire *1 000* c’est le *K* de *Kilo*). Le bug de l’an 2000 c’est donc un bug qui n’a pas eu lieu. Il devait se produire au 1<sup>er</sup> janvier 2000 un
+
+<!--Hack pour régler le bug de la page 65.5-->
+
+peu partout dans le monde. Et s’il n’a pas eu lieu c’est parce qu’on a vraiment eu peur et qu’on a dépensé des centaines de milliards de dollars pour le corriger avant qu’il ne se produise.
 
 Le problème qu’on avait est assez simple à comprendre : quand on faisait des programmes dans les années 80 et qu’il fallait garder la date en mémoire, on n’écrivait pas *1980* (ça prenait trop de place), on écrivait seulement *80*. Et au moment de restituer l’information on ajoutait *19* devant.
 
@@ -144,7 +148,7 @@ Sauf que 19 ans plus tard on est en 99, et il s’avère que des programmes des 
 
 ![Diagramme du passage à l’an 1999 et du passage de l’an 1999 à l’an 1900 ou 19100](img/illu-livre/reine-rouge/18.png)
 
-<div class="page-break"></div>
+<!--<div class="page-break"></div>-->
 
 Heureusement on a réagi à temps ! Et surtout on a appris de nos erreurs. Maintenant ce n’est plus du tout comme ça qu’on stocke les dates en mémoire. Maintenant pour stocker la date on utilise généralement ce qui s’appelle le *temps POSIX*. Le temps POSIX c’est le nombre de secondes qui se sont écoulées depuis le 1<sup>er</sup> janvier 1970. Par exemple, au moment où j’écris ce texte, le temps POSIX c’est 1 666 012 960.
 

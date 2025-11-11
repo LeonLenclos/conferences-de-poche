@@ -105,7 +105,7 @@ Eh bien de la même manière qu’Arles et Montpellier sont des endroits qui m�
 
 La nuit c’est ce que je représente hachuré sur ce dessin. En dessin la nuit c’est ce qu’on appelle une ombre propre, c’est l’ombre de la Terre sur elle-même produite par le Soleil. Si on prend du recul, et qu’on se place du point de vue du Soleil, on voit bien que la nuit est immobile, que c’est la Terre qui tourne.
 
-La nuit est bel et bien un lieu, c’est le plus bel endroit sur Terre et on a la chance de le visiter toutes les nuits.
+La nuit est bel et bien un lieu. C’est le plus bel endroit sur Terre et on a la chance de le visiter toutes les nuits.
 
 
 

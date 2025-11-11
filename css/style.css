@@ -27,7 +27,7 @@ img {
   font-size: small;
   display: block;
   width : 90%;
-  margin: 2em auto;
+  margin: 1.5em auto;
 }
 
 img:hover:after {
@@ -76,3 +76,4 @@ p {
    content:'***';
 
  }
+
